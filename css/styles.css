@@ -1,16 +1,13 @@
-
-
 *, *:before, *:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 /* Typography and Styling */
 
 body {
-  font-family: "futura-pt",sans-serif;
+  font-family: "futura-pt", sans-serif;
   color: #333;
   letter-spacing: .7px;
   height: 100vh;
@@ -21,6 +18,7 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -30,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 2.6rem;
   font-weight: 500;
   font-style: oblique;
 }
@@ -48,12 +46,12 @@ h4 {
 
 h5 {
   font-size: 1.16rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 p {
   font-size: 1.28rem;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 li {
@@ -101,6 +99,54 @@ a:hover {
   padding-top: 8vw;
 }
 
+.cumulus-logo {
+  grid-column: 5;
+  grid-row: 3;
+  padding-top: 6vw;
+}
+
+.cumulus-header {
+  grid-column: 3 / 10;
+  grid-row: 4;
+  padding-top: 2vw;
+}
+
+.cumulus-paragraph {
+  grid-column: 3 / 10;
+  grid-row: 5;
+  padding-top: 1vw;
+}
+
+.cumulus-img {
+  grid-column: 10 / 24;
+  grid-row: 3 / 6;
+  padding-top: 6vw;
+}
+
+.blocjams-img {
+  grid-column: 3 / 8;
+  grid-row: 7 / 10;
+  padding-top: 6vw;
+}
+
+.blocjams-logo {
+  grid-column: 10 / 12;
+  grid-row: 7;
+  padding-top: 7vw;
+}
+
+.blocjams-header {
+  grid-column: 8 / 23;
+  grid-row: 8;
+  padding-top: 2vw;
+}
+
+.blocjams-paragraph {
+  grid-column: 8 / 23;
+  grid-row: 9;
+  padding-top: 1vw;
+}
+
 /* Content Styling */
 
 nav {
@@ -113,20 +159,16 @@ nav {
   display: inline-flex;
 }
 
-.nav-right ul li {
-  padding-right: 10px;
+.nav-footer-spacing {
+  padding-right: 20px;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 100px 30px 30px 30px;
 }
 
 .footer-right ul {
   display: inline-flex;
-}
-
-.footer-right ul li {
-  padding-right: 10px;
 }
