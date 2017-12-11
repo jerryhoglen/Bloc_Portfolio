@@ -11,7 +11,6 @@ body {
   color: #333;
   letter-spacing: .7px;
   margin: 0 auto;
-  padding: 10px;
   background-color: #fff;
   background-image: url("../images/design-background.png");
   background-size: auto;
@@ -84,6 +83,10 @@ nav {
   display: inline-flex;
 }
 
+.nav-right {
+  padding-right: 10px;
+}
+
 .nav-footer-spacing {
   padding-right: 10px;
 }
@@ -92,7 +95,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 30px 0 10px 0;
+  padding: 30px 10px 10px 10px;
 }
 
 .footer-right ul {
@@ -106,26 +109,21 @@ footer {
   grid-gap: 10px;
 }
 
+.body-container h1, h2, h3, h4, h5, p {
+  padding: 0 10px;
+}
+
+.hide-nav {
+  display: none;
+}
+
 .center {
   display: flex;
   justify-content: space-around;
 }
 
-.features-padding {
-  padding-bottom: 10vw;
-}
-
 .heading-padding {
-  padding: 2vw 0;
-}
-
-.profile-img {
-  grid-column: 1;
-  background-color: #333333;
-}
-
-.profile-img img {
-  width: 65vw;
+  padding: 2vw 0 5vw 0;
 }
 
 .profile-header {
