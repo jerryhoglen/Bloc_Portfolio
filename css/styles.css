@@ -102,7 +102,7 @@ footer {
   display: inline-flex;
 }
 
-.body-container {
+.wrapper {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr;
@@ -149,3 +149,72 @@ footer {
 .responsive-site-img {
   background-color: #333333;
 }
+
+@media only screen and (min-width: 600px)   {
+
+  img {
+    width: 100%;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+    padding-left: 2vw;
+  }
+
+  .profile-paragraph {
+    width: 50vw;
+    padding-left: 5vw;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .featured-work {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .featured-work h2 {
+    font-size: 1.75rem;
+  }
+
+  .cumulus-img {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .cumulus-header {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .blocjams-img {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .blocjams-header {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .responsive-site-img {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .responsive-site-header {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .heading-padding {
+    padding: 1vw 0;
+  }
