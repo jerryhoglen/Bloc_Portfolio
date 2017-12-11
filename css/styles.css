@@ -113,7 +113,7 @@ footer {
   padding: 0 10px;
 }
 
-.hide-nav {
+.hide-mobile {
   display: none;
 }
 
@@ -122,8 +122,12 @@ footer {
   justify-content: space-around;
 }
 
+.features-padding {
+  padding-bottom: 10vw;
+}
+
 .heading-padding {
-  padding: 2vw 0 5vw 0;
+  padding: 2vw 0;
 }
 
 .profile-header {
