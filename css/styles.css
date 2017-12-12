@@ -181,6 +181,15 @@ footer {
   font-weight: 500;
 }
 
+.social-icons {
+  padding: 4vw 0 1vw 2vw;
+}
+
+.contact-info ul li {
+  padding-left: 3vw;
+  display: inline-flex;
+}
+
 @media only screen and (min-width: 600px) {
   nav p, li {
     font-size: 1.2rem;
@@ -269,6 +278,9 @@ footer {
   .bio-summary {
     grid-column: 1 / span 2;
     grid-row: 2;
+  }
+  .social-icons {
+    padding: 2vw 0 1vw 2vw;
   }
 }
 
@@ -416,7 +428,7 @@ footer {
      padding-bottom: 2vw;
    }
    .contact-info {
-     grid-column: 1 / span 3;
+     grid-column: 1 / span 5;
      grid-row: 2;
    }
    .bio-summary {
