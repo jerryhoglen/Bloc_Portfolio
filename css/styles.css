@@ -148,20 +148,49 @@ footer {
   background-color: #333333;
 }
 
-@media only screen and (min-width: 600px)   {
+/****************
+    Bio Page
+ ****************/
 
-  nav p,li {
+ .bio-page {
+   background-color: #F9F9F9;
+   padding: 5vw 0;
+ }
+
+.bio-page p {
+  padding: 0 2vw;
+}
+
+.bio-name {
+  padding: 0 0 2vw 0;
+}
+
+.bio-name p {
+  padding-left: 3vw;
+}
+
+.contact-info {
+  padding: 0 0 2vw 0;
+}
+
+.contact-info p {
+  padding-left: 3vw;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 600px) {
+  nav p, li {
     font-size: 1.2rem;
   }
-
   .wrapper h5 {
     font-size: 1rem;
   }
-
   .wrapper p {
     font-size: 1.25rem;
   }
-
   img {
     height: 36vw;
     width: 48vw;
@@ -170,26 +199,21 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
   }
-
   .header h1 {
     font-size: 2rem;
     padding-left: 2vw;
   }
-
   .profile-paragraph {
     width: 50vw;
     padding-left: 5vw;
   }
-
   .profile-paragraph h3 {
     font-size: 1.25rem;
     padding: 2vw 1vw 0 1vw;
   }
-
   .wrapper {
     grid-template-columns: 1fr 1fr;
   }
-
   .featured-work {
     grid-column: 1 / span 2;
     grid-row: 1;
@@ -197,92 +221,94 @@ footer {
     justify-content: center;
     padding: 4vw 0 3vw 0;
   }
-
   .featured-work h2 {
     font-size: 1.75rem;
   }
-
   .cumulus-img {
     grid-column: 1;
     grid-row: 2;
   }
-
   .cumulus-header {
     grid-column: 1;
     grid-row: 3;
   }
-
   .blocjams-img {
     grid-column: 2;
     grid-row: 2;
   }
-
   .blocjams-header {
     grid-column: 2;
     grid-row: 3;
   }
-
   .responsive-site-img {
     grid-column: 1;
     grid-row: 4;
   }
-
   .responsive-site-header {
     grid-column: 1;
     grid-row: 5;
   }
-
   .heading-padding {
     padding: 1vw 0;
   }
-
+  /****************
+    Bio Page
+****************/
+ .bio-page h2 {
+   padding-left: 2vw;
+   font-size: 1.5rem;
+ }
+  .bio-name {
+    grid-column: 1;
+    padding-bottom: 2vw;
+  }
+  .contact-info {
+    grid-column: 2;
+    padding-bottom: 2vw;
+  }
+  .bio-summary {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   body {
     max-width: 1024px;
   }
-
+  .nav-right {
+    padding: 0;
+  }
   .body-container h1, h2, h3, h4, h5, p {
     padding: 0;
   }
-
   .center {
     display: grid;
   }
-
   .nav-footer-spacing {
     padding-right: 20px;
   }
-
   .header h1 {
     font-size: 4rem;
   }
-
   h2 {
     font-size: 1.25rem;
   }
-
   .profile-paragraph h3 {
     font-size: 1.5rem;
   }
-
   .featured-work h2 {
     font-size: 2.5rem;
   }
-
   h4 {
     font-size: .65rem;
   }
-
   h5 {
     font-size: .85rem;
   }
-
   p {
     font-size: .95rem;
   }
-
   .header {
     margin: 0 auto;
     max-width: 960px;
@@ -290,111 +316,113 @@ footer {
     grid-template-columns: repeat(10, 60px);
     grid-column-gap: 20px;
   }
-
   .heading-padding {
     padding: 0;
   }
-
   .hide-mobile {
     display: contents;
   }
-
   .profile-img img {
     height: 18vw;
     width: 16vw;
     grid-column: 2;
   }
-
   .profile-header {
     grid-column: 4 / span 8;
     grid-row: 1;
     padding: 2vw 0;
   }
-
   .profile-paragraph {
     width: 100%;
     grid-column: 5 / span 7;
     grid-row: 1;
     padding: 6.5vw 1vw 0 1vw;
   }
-
   .wrapper {
     max-width: 1024px;
     margin: 0 auto;
     grid-template-columns: repeat(12, 60px);
     grid-column-gap: 20px;
   }
-
   .featured-work {
     grid-column: 1 / 13;
     padding-bottom: 5vw;
   }
-
   .cumulus-img img {
     height: 19.5vw;
     width: 26.5vw;
     margin-left: 2vw;
     margin-top: -2vw;
   }
-
   .cumulus-img {
     grid-column: 2 / span 5;
   }
-
   .cumulus-header {
     grid-column: 2 / span 5;
     grid-row: 3;
     padding: 0;
   }
-
-  .cumulus-paragraph  p {
+  .cumulus-paragraph p {
     grid-column: 2 / span 5;
     grid-row: 4;
   }
-
   .blocjams-img img {
     height: 19.5vw;
     width: 26.5vw;
     margin-right: 2vw;
     margin-top: -2vw;
   }
-
   .blocjams-img {
     grid-column: 8 / span 5;
     grid-row: 4;
   }
-
   .blocjams-header {
     grid-column: 8 / span 5;
     grid-row: 5;
   }
-
   .blocjams-paragraph p {
     grid-column: 8 / span 5;
     grid-row: 6;
   }
-
   .responsive-site-img img {
     height: 19.5vw;
     width: 26.5vw;
     margin-left: 5vw;
     margin-top: -5vw;
   }
-
   .responsive-site-img {
     grid-column: 2 / span 5;
     grid-row: 6;
   }
-
   .responsive-site-header {
     grid-column: 2 / span 5;
     grid-row: 7;
     padding: 0;
   }
-
   .responsive-site-paragraph p {
     grid-column: 2 / span 5;
     grid-row: 8;
   }
-
+  /****************
+       Bio Page
+   ****************/
+   .bio-page {
+     max-width: 960px;
+     margin: 0 auto;
+     padding: 2vw;
+   }
+   .bio-name {
+     grid-column: 1 / span 3;
+     padding-bottom: 2vw;
+   }
+   .contact-info {
+     grid-column: 1 / span 3;
+     grid-row: 2;
+   }
+   .bio-summary {
+     grid-column: 4 / span 10;
+     grid-row: 1;
+     padding: 5vw 2vw 0 0;
+     margin-left: -4vw;
+   }
 }
