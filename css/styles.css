@@ -18,6 +18,7 @@ h1 {
   font-size: 1.5rem;
   font-weight: 500;
   font-style: oblique;
+  padding: 0 2vw;
 }
 
 h2 {
@@ -62,7 +63,8 @@ a:hover {
 }
 
 img {
-  width: 75%;
+  height: 55vw;
+  width: 65vw;
 }
 
 /* Content Styling */
@@ -71,7 +73,7 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 30px 10px 40px 10px;
+  padding: 30px 2vw 40px 2vw;
 }
 
 .nav-right ul {
@@ -90,7 +92,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 40px 20px 30px 20px;
+  padding: 40px 2vw 30px 2vw;
 }
 
 .footer-right ul {
@@ -104,7 +106,7 @@ footer {
   grid-gap: 10px;
 }
 
-.body-container h1, h2, h3, h4, h5, p {
+.body-container h1, h2, h3, h4, h5 {
   padding: 0 10px;
 }
 
@@ -153,7 +155,8 @@ footer {
   }
 
   img {
-    width: 80%;
+    height: 36vw;
+    width: 48vw;
   }
   .header {
     display: grid;
@@ -172,6 +175,7 @@ footer {
 
   .profile-paragraph h3 {
     font-size: 1.25rem;
+    padding: 2vw 1vw 0 1vw;
   }
 
   .wrapper {
@@ -303,7 +307,7 @@ footer {
     width: 100%;
     grid-column: 5 / span 7;
     grid-row: 1;
-    padding: 8vw 1vw 0 1vw;
+    padding: 6.5vw 1vw 0 1vw;
   }
 
   .wrapper {
