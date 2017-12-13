@@ -434,7 +434,7 @@ footer {
    .bio-summary {
      grid-column: 4 / span 10;
      grid-row: 1;
-     padding: 5vw 2vw 0 0;
+     padding: 5vw 4vw 0 0;
      margin-left: -4vw;
    }
 }
