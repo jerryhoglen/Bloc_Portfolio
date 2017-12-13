@@ -152,10 +152,10 @@ footer {
     Bio Page
  ****************/
 
- .bio-page {
-   background-color: #F9F9F9;
-   padding: 5vw 0;
- }
+.bio-page {
+  background-color: #F9F9F9;
+  padding: 5vw 0;
+}
 
 .bio-page p {
   padding: 0 2vw;
@@ -169,25 +169,139 @@ footer {
   padding-left: 3vw;
 }
 
-.contact-info {
-  padding: 0 0 2vw 0;
-}
-
-.contact-info p {
-  padding-left: 3vw;
-}
-
 .bold {
   font-weight: 500;
 }
 
+/*****************
+Contact Page
+*****************/
+
+.contact-info ul li {
+  display: inline-flex;
+}
+
+.contact-info h2 {
+  padding: 2vw 0vw 1vw 1vw;
+}
+
+.contact-info p {
+  padding-left: 1vw;
+}
+
 .social-icons {
-  padding: 4vw 0 1vw 2vw;
+  padding-top: 2vw;
 }
 
 .contact-info ul li {
-  padding-left: 3vw;
-  display: inline-flex;
+  padding-left: 2vw;
+}
+
+.contact-info {
+  padding-left: 1vw;
+}
+
+#contact-wrap {
+  font-size: 16px;
+  font-weight: 300;
+  width: 100vw;
+  color: #333;
+  overflow: auto;
+  float: left;
+}
+
+#contact-area {
+  margin-left: 3px;
+  width: 342px;
+  padding: 2vw;
+}
+
+#contact-area input, #contact-area textarea {
+  padding: 5px;
+  width: 342px;
+  font-family: "futura-pt", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
+  background-color: transparent;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 2px solid #333;
+  border-right: 1px solid transparent;
+  margin-bottom: 15px;
+}
+
+#contact-area textarea {
+  height: 150px;
+  background-color: transparent;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 2px solid #333;
+  border-right: 1px solid transparent;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+  background-color: #fff;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 2px solid #333;
+  border-right: 1px solid transparent;
+}
+
+#contact-area input.submit-button {
+  font-family: "futura-pt", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 100px;
+  float: left;
+  background-color: transparent;
+  border-top: 2px solid #333;
+  border-left: 2px solid #333;
+  border-bottom: 2px solid #333;
+  border-right: 2px solid #333;
+  -moz-transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+#contact-area input.submit-button:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+label {
+  float: left;
+  text-align: left;
+  margin-right: 16px;
+  width: 100px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+::-webkit-input-placeholder {
+  color: #333;
+  font-size: 14px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #333;
+  font-size: 14px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #333;
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  color: #333;
+  font-size: 14px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -263,10 +377,10 @@ footer {
   /****************
     Bio Page
 ****************/
- .bio-page h2 {
-   padding-left: 2vw;
-   font-size: 1.5rem;
- }
+  .bio-page h2 {
+    padding-left: 2vw;
+    font-size: 1.5rem;
+  }
   .bio-name {
     grid-column: 1;
     padding-bottom: 2vw;
@@ -281,6 +395,21 @@ footer {
   }
   .social-icons {
     padding: 2vw 0 1vw 2vw;
+  }
+  /*****************
+  Contact Page
+  *****************/
+  .contact-info {
+    grid-column: 1;
+    padding-left: 1vw;
+  }
+  #contact-wrap {
+    width: 50vw;
+    grid-column: 2;
+    padding-right: 1vw;
+  }
+  #contact-area {
+    padding: 0;
   }
 }
 
@@ -418,23 +547,51 @@ footer {
   /****************
        Bio Page
    ****************/
-   .bio-page {
-     max-width: 960px;
-     margin: 0 auto;
-     padding: 2vw;
-   }
-   .bio-name {
-     grid-column: 1 / span 3;
-     padding-bottom: 2vw;
-   }
-   .contact-info {
-     grid-column: 1 / span 5;
-     grid-row: 2;
-   }
-   .bio-summary {
-     grid-column: 4 / span 10;
-     grid-row: 1;
-     padding: 5vw 4vw 0 0;
-     margin-left: -4vw;
-   }
+  .bio-page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2vw;
+  }
+  .bio-name {
+    grid-column: 1 / span 3;
+    padding-bottom: 2vw;
+  }
+  .bio-summary {
+    grid-column: 4 / span 10;
+    grid-row: 1;
+    padding: 2vw 4vw 0 0;
+    margin-left: -4vw;
+  }
+  /*****************
+  Contact Page
+  *****************/
+  .contact-page {
+    max-width: 960px;
+    background-color: #F0F1F4;
+    margin: 0 auto;
+    padding: 5vw 0 12vw 0;
+  }
+  .contact-info {
+    grid-column: 2 / span 4;
+    grid-row: 1;
+  }
+  .contact-info h2 {
+    padding: 0;
+  }
+  .contact-info p {
+    padding: 0;
+  }
+  .contact-info ul li {
+    padding: 0 1vw 0 0;
+  }
+  .contact-info .contact-padding {
+    padding-bottom: 2vw;
+  }
+  #contact-wrap {
+    grid-column: 6 / span 3;
+    padding-right: 1vw;
+  }
+  #contact-area {
+    padding-top: 2vw;
+  }
 }
