@@ -76,6 +76,11 @@ nav {
   padding: 30px 2vw 40px 2vw;
 }
 
+.nav-right ul li a:active{
+  border-bottom: 1px solid #333333;
+  padding-bottom:1px;
+ }
+
 .nav-right ul {
   display: inline-flex;
 }
@@ -98,6 +103,11 @@ footer {
 .footer-right ul {
   display: inline-flex;
 }
+
+footer ul li a:active{
+  border-bottom: 1px solid #333333;
+  padding-bottom:1px;
+ }
 
 .wrapper {
   display: grid;
