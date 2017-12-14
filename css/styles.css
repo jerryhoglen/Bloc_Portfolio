@@ -123,10 +123,6 @@ footer ul li a:active {
   grid-gap: 10px;
 }
 
-.body-container h1, h2, h3, h4, h5 {
-  padding: 0 10px;
-}
-
 .hide-mobile {
   display: none;
 }
@@ -194,6 +190,10 @@ footer ul li a:active {
 Contact Page
 *****************/
 
+.contact-page {
+  padding-left: 10px;
+}
+
 .contact-info ul li {
   display: inline-flex;
 }
@@ -216,6 +216,10 @@ Contact Page
 
 .contact-padding {
   padding-bottom: 5vw;
+}
+
+#contact-wrap h2 {
+  padding-left: 2vw;
 }
 
 #contact-wrap {
