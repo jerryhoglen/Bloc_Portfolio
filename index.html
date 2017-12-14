@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/nel7nci.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,8 +18,8 @@
       <p>Jerry Hoglen</p>
     </div>
     <div class="nav-right">
-      <ul>
-        <li class="nav-footer-spacing"><a href="index.html">Work</a></li>
+      <ul class="menu">
+        <li class="nav-footer-spacing "><a href="index.html">Work</a></li>
         <li class="nav-footer-spacing"><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -85,13 +86,47 @@
         <li>&copy;&nbsp;2017</li>
         <li>jerryhoglen.com</li>
     </div>
-    <div class="footer-right">
+    <div class="footer-right menu">
       <ul>
         <li class="nav-footer-spacing"><a href="index.html">Work</a></li>
         <li class="nav-footer-spacing"><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
     </div>
   </footer>
+<script>
+$(document).ready(function() {
+    // Get current page URL
+    var url = window.location.href;
+
+    // remove # from URL
+    url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
+
+    // remove parameters from URL
+    url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
+
+    // select file name
+    url = url.substr(url.lastIndexOf("/") + 1);
+
+    // If file name not avilable
+    if (url == '') {
+      url = 'index.html';
+    }
+
+    // Loop all menu items
+    $('.menu li').each(function() {
+
+      // select href
+      var href = $(this).find('a').attr('href');
+
+      // Check filename
+      if (url == href) {
+
+        // Add active class
+        $(this).addClass('active');
+      }
+    });
+  });
+  </script>
 </body>
 
 </html>
