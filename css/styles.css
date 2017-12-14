@@ -72,15 +72,15 @@ img {
 nav {
   max-width: 960px;
   margin: 0 auto;
-  padding: 30px 10px;
+  padding: 30px 20px;
   display: flex;
   justify-content: space-between;
 }
 
-.nav-right ul li a:active{
+.nav-right ul li a:active {
   border-bottom: 1px solid #333333;
-  padding-bottom:1px;
- }
+  padding-bottom: 1px;
+}
 
 .nav-right ul {
   display: inline-flex;
@@ -95,7 +95,7 @@ nav {
 }
 
 .active a {
- border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #333333;
 }
 
 footer {
@@ -103,7 +103,7 @@ footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 30px 10px;
+  padding: 30px 20px;
 }
 
 .footer-right ul {
@@ -111,10 +111,10 @@ footer {
   justify-content: space-between;
 }
 
-footer ul li a:active{
+footer ul li a:active {
   border-bottom: 1px solid #333333;
-  padding-bottom:1px;
- }
+  padding-bottom: 1px;
+}
 
 .wrapper {
   display: grid;
@@ -171,7 +171,7 @@ footer ul li a:active{
 
 .bio-page {
   background-color: #F9F9F9;
-  padding: 5vw 0;
+  padding: 5vw 20px;
 }
 
 .bio-page p {
@@ -199,7 +199,7 @@ Contact Page
 }
 
 .contact-info h2 {
-  padding: 2vw 0vw 1vw 1vw;
+  padding: 0vw 0vw 0vw 1vw;
 }
 
 .contact-info p {
@@ -587,7 +587,6 @@ label {
     grid-column: 1 / span 3;
     padding: 4vw 0vw 4vw 1vw;
   }
-
   .bio-summary {
     grid-column: 4 / span 10;
     grid-row: 1;
@@ -620,8 +619,11 @@ label {
     padding-bottom: 2vw;
   }
   #contact-wrap {
-    grid-column: 5 / span 3;
+    grid-column: 5 / span 1;
     padding-right: 1vw;
+  }
+  #contact-wrap h2 {
+    width: 24vw;
   }
   #contact-area {
     padding-top: 2vw;
