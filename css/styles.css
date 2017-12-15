@@ -430,13 +430,10 @@ label {
     padding-left: 1vw;
   }
   #contact-wrap {
-    width: 50vw;
+    width: 60vw;
     grid-column: 2;
     padding-right: 1vw;
     padding-top: 0;
-  }
-  #contact-wrap h2 {
-    padding: 0;
   }
 }
 
@@ -624,7 +621,7 @@ label {
     padding-bottom: 2vw;
   }
   #contact-wrap {
-    grid-column: 5 / span 1;
+    grid-column: 5 / span 2;
     padding-right: 1vw;
   }
   #contact-wrap h2 {
