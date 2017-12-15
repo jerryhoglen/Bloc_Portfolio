@@ -137,11 +137,15 @@ footer ul li a:active {
 }
 
 .heading-padding {
-  padding: 2vw 0;
+  padding: 2vw 2vw;
 }
 
 .profile-header {
   padding: 2vw 0;
+}
+
+.profile-paragraph h3 {
+  padding: 0 2vw;
 }
 
 .featured-work {
@@ -191,7 +195,7 @@ Contact Page
 *****************/
 
 .contact-page {
-  padding-left: 10px;
+  padding: 0 2vw;
 }
 
 .contact-info ul li {
@@ -225,7 +229,6 @@ Contact Page
 #contact-wrap {
   font-size: 16px;
   font-weight: 300;
-  width: 100vw;
   color: #333;
   overflow: auto;
   float: left;
@@ -404,7 +407,7 @@ label {
   }
   /****************
     Bio Page
-****************/
+  ****************/
   .bio-page h2 {
     padding-left: 2vw;
     font-size: 1.5rem;
@@ -437,7 +440,7 @@ label {
     padding-right: 1vw;
     padding-top: 0;
   }
-  #contact-area {
+  #contact-wrap h2 {
     padding: 0;
   }
 }
@@ -627,7 +630,7 @@ label {
     padding-right: 1vw;
   }
   #contact-wrap h2 {
-    width: 24vw;
+    padding: 0 0 0 2vw;
   }
   #contact-area {
     padding-top: 2vw;
