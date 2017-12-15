@@ -174,16 +174,12 @@ footer ul li a:active {
   padding: 5vw 20px;
 }
 
-.bio-page p {
+.bio-page h2, p {
   padding: 0 2vw;
 }
 
 .bio-name {
   padding: 0 0 2vw 0;
-}
-
-.bio-name p {
-  padding-left: 3vw;
 }
 
 .bold {
