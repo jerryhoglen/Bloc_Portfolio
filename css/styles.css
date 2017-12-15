@@ -405,7 +405,6 @@ label {
     Bio Page
   ****************/
   .bio-page h2 {
-    padding-left: 2vw;
     font-size: 1.5rem;
   }
   .bio-name {
@@ -585,6 +584,9 @@ label {
   }
   .bio-name p {
     padding: 0 0 0 2vw;
+  }
+  .bio-page h2 {
+    padding-left: 2vw;
   }
   .bio-name {
     grid-column: 1 / span 3;
