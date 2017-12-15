@@ -18,7 +18,7 @@ h1 {
   font-size: 1.5rem;
   font-weight: 500;
   font-style: oblique;
-  padding: 0 2vw;
+  padding: 0 4vw;
 }
 
 h2 {
@@ -103,7 +103,7 @@ footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 30px 20px;
+  padding: 30px 4vw;
 }
 
 .footer-right ul {
@@ -137,7 +137,7 @@ footer ul li a:active {
 }
 
 .heading-padding {
-  padding: 2vw 2vw;
+  padding: 2vw 4vw;
 }
 
 .profile-header {
@@ -145,7 +145,7 @@ footer ul li a:active {
 }
 
 .profile-paragraph h3 {
-  padding: 0 2vw;
+  padding: 0 4vw;
 }
 
 .featured-work {
