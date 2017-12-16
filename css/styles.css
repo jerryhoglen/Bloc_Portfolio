@@ -9,7 +9,6 @@
 body {
   font-family: "futura-pt", sans-serif;
   color: #333;
-  letter-spacing: .7px;
   margin: 0 auto;
   background-color: #fff;
 }
@@ -127,11 +126,6 @@ footer ul li a:active {
   display: none;
 }
 
-.center {
-  display: flex;
-  justify-content: space-around;
-}
-
 .features-padding {
   padding-bottom: 10vw;
 }
@@ -153,15 +147,15 @@ footer ul li a:active {
   text-align: center;
 }
 
-.cumulus-img {
+.cumulus-section {
   background-color: #81EA97;
 }
 
-.blocjams-img {
+.blocjams-section {
   background-color: #E32664;
 }
 
-.responsive-site-img {
+.responsive-site-section {
   background-color: #333333;
 }
 
@@ -170,15 +164,11 @@ footer ul li a:active {
  ****************/
 
 .bio-page {
-  background-color: #F9F9F9;
+  background-color: #F0F1F4;
   padding: 5vw 20px;
 }
 
-.bio-page h2, p {
-  padding: 0;
-}
-
-.bio-name {
+.about-padding {
   padding: 0 0 2vw 0;
 }
 
@@ -191,7 +181,8 @@ Contact Page
 *****************/
 
 .contact-page {
-  padding: 0 2vw;
+  padding: 5vw 2vw;
+  background-color: #F0F1F4;
 }
 
 .contact-info ul li {
@@ -274,6 +265,7 @@ Contact Page
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
+  letter-spacing: .75px;
   width: 100px;
   float: left;
   background-color: transparent;
@@ -374,53 +366,19 @@ label {
   .featured-work h2 {
     font-size: 1.75rem;
   }
-  .cumulus-img {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  .cumulus-header {
-    grid-column: 1;
-    grid-row: 3;
-  }
-  .blocjams-img {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  .blocjams-header {
-    grid-column: 2;
-    grid-row: 3;
-  }
-  .responsive-site-img {
-    grid-column: 1;
-    grid-row: 4;
-  }
-  .responsive-site-header {
-    grid-column: 1;
-    grid-row: 5;
-  }
-  .heading-padding {
-    padding: 1vw 0;
-  }
+
   /****************
     Bio Page
   ****************/
   .bio-page h2 {
     font-size: 1.5rem;
   }
-  .bio-name {
-    grid-column: 1;
-    padding-bottom: 2vw;
-  }
-  .contact-info {
-    grid-column: 2;
-    padding-bottom: 2vw;
+  .about-padding {
+    padding: 0 0 2vw 0;
   }
   .bio-summary {
     grid-column: 1 / span 2;
     grid-row: 2;
-  }
-  .social-icons {
-    padding: 2vw 0 1vw 2vw;
   }
   /*****************
   Contact Page
@@ -434,6 +392,9 @@ label {
     grid-column: 2;
     padding-right: 1vw;
     padding-top: 0;
+  }
+  .contact-padding {
+    padding-bottom: 2vw;
   }
 }
 
@@ -516,97 +477,57 @@ label {
     grid-column: 1 / 13;
     padding-bottom: 5vw;
   }
-  .cumulus-img img {
-    height: 19.5vw;
-    width: 26.5vw;
-    margin-left: 2vw;
-    margin-top: -2vw;
+  .cumulus-section {
+    grid-column: 1 / span 4;
+    grid-row: 2;
   }
-  .cumulus-img {
-    grid-column: 2 / span 5;
-  }
-  .cumulus-header {
-    grid-column: 2 / span 5;
+  .blocjams-section {
+    grid-column: 6 / span 4;
     grid-row: 3;
-    padding: 0;
   }
-  .cumulus-paragraph p {
-    grid-column: 2 / span 5;
+  .responsive-site-section {
+    grid-column: 1 / span 4;
     grid-row: 4;
-  }
-  .blocjams-img img {
-    height: 19.5vw;
-    width: 26.5vw;
-    margin-right: 2vw;
-    margin-top: -2vw;
-  }
-  .blocjams-img {
-    grid-column: 8 / span 5;
-    grid-row: 4;
-  }
-  .blocjams-header {
-    grid-column: 8 / span 5;
-    grid-row: 5;
-  }
-  .blocjams-paragraph p {
-    grid-column: 8 / span 5;
-    grid-row: 6;
-  }
-  .responsive-site-img img {
-    height: 19.5vw;
-    width: 26.5vw;
-    margin-left: 5vw;
-    margin-top: -5vw;
-  }
-  .responsive-site-img {
-    grid-column: 2 / span 5;
-    grid-row: 6;
-  }
-  .responsive-site-header {
-    grid-column: 2 / span 5;
-    grid-row: 7;
-    padding: 0;
-  }
-  .responsive-site-paragraph p {
-    grid-column: 2 / span 5;
-    grid-row: 8;
   }
   /****************
        Bio Page
    ****************/
   .bio-page {
+    background-color: #FFF;
     max-width: 960px;
     margin: 0 auto;
     padding: 0;
   }
-  .bio-name p {
-    padding: 0 0 0 2vw;
-  }
-  .bio-page h2 {
-    padding-left: 2vw;
-  }
-  .bio-name {
-    grid-column: 1 / span 3;
-    padding: 4vw 0vw 4vw 1vw;
-  }
   .bio-summary {
-    grid-column: 4 / span 9;
+    background-color: #F0F1F4;
+    grid-column: 3 / span 8;
     grid-row: 1;
-    margin-left: -4vw;
-    padding: 4vw 2vw;
+    padding: 2vw 2vw 3vw 2vw;
   }
+
+  .bio-summary h2 {
+    font-size: 2.25rem;
+    margin-left: -6vw;
+  }
+
+  .about-padding {
+    padding-bottom: 2vw;
+  }
+
+
   /*****************
   Contact Page
   *****************/
   .contact-page {
+    background-color: #FFF;
     max-width: 960px;
-    background-color: #F0F1F4;
     margin: 0 auto;
     padding: 4vw 2vw;
   }
   .contact-info {
-    grid-column: 1 / span 3;
+    grid-column: 4 / span 3;
     grid-row: 1;
+    padding-left: 2vw;
   }
   .contact-info h2 {
     padding: 0;
@@ -621,13 +542,13 @@ label {
     padding-bottom: 2vw;
   }
   #contact-wrap {
-    grid-column: 5 / span 2;
-    padding-right: 1vw;
+    width: 40vw;
+    background-color: #F0F1F4;
+    grid-column: 4 / span 2;
+    grid-row: 2;
+    padding: 2vw 1vw 2vw 0;
   }
   #contact-wrap h2 {
     padding: 0 0 0 2vw;
-  }
-  #contact-area {
-    padding-top: 2vw;
   }
 }
