@@ -61,9 +61,42 @@ a:hover {
   color: red;
 }
 
-img {
-  height: 55vw;
-  width: 65vw;
+.cumulus-section img {
+  height: 40vw;
+  width: 55vw;
+}
+
+.blocjams-section img {
+  height: 32vw;
+  width: 56vw;
+}
+
+.responsive-site-section img {
+  height: 34vw;
+  width: 46vw;
+}
+
+.responsive-site-section h5 {
+  color: #FFF
+}
+
+.cumulus-section a {
+  display: block;
+  text-align: center;
+}
+
+.blocjams-section a {
+  display: block;
+  text-align: center;
+}
+
+.responsive-site-section a {
+  display: block;
+  text-align: center;
+}
+
+.work-padding {
+  padding: 3vw 0 2vw 0;
 }
 
 /* Content Styling */
@@ -126,6 +159,10 @@ footer ul li a:active {
   display: none;
 }
 
+.mobile-width-padding {
+  padding-left: 20px;
+}
+
 .features-padding {
   padding-bottom: 10vw;
 }
@@ -156,7 +193,7 @@ footer ul li a:active {
 }
 
 .responsive-site-section {
-  background-color: #333333;
+  background-color: #A3BAC3;
 }
 
 /****************
@@ -333,9 +370,20 @@ label {
   .wrapper p {
     font-size: 1.25rem;
   }
-  img {
-    height: 36vw;
-    width: 48vw;
+  .cumulus-section img {
+    height: 30vw;
+    width: 40vw;
+  }
+  .blocjams-section img {
+    height: 22vw;
+    width: 38vw;
+  }
+  .bloc-jams-padding {
+    padding-top: 8vw;
+  }
+  .responsive-site-section img {
+    height: 24vw;
+    width: 30vw;
   }
   .header {
     display: grid;
@@ -346,7 +394,7 @@ label {
     padding-left: 2vw;
   }
   .profile-paragraph {
-    width: 50vw;
+    width: 60vw;
     padding-left: 5vw;
   }
   .profile-paragraph h3 {
@@ -366,7 +414,6 @@ label {
   .featured-work h2 {
     font-size: 1.75rem;
   }
-
   /****************
     Bio Page
   ****************/
@@ -403,7 +450,7 @@ label {
     padding: 30px 0;
   }
   footer {
-    padding: 30px 0;
+    padding: 50px 0 30px 0;
   }
   .nav-right {
     padding: 0;
@@ -459,7 +506,7 @@ label {
   .profile-header {
     grid-column: 4 / span 8;
     grid-row: 1;
-    padding: 2vw 0;
+    padding: 2.2vw 0;
   }
   .profile-paragraph {
     width: 100%;
@@ -477,18 +524,88 @@ label {
     grid-column: 1 / 13;
     padding-bottom: 5vw;
   }
+  .mobile-width-padding {
+    padding: 0;
+  }
   .cumulus-section {
     grid-column: 1 / span 4;
     grid-row: 2;
+    height: 15vw;
+    width: 32vw;
+    margin-top: 4vw;
   }
   .blocjams-section {
-    grid-column: 6 / span 4;
+    grid-column: 7 / span 4;
     grid-row: 3;
+    width: 32vw;
+    height: 15vw;
+    margin-top: 4vw;
   }
   .responsive-site-section {
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 5;
     grid-row: 4;
+    width: 32vw;
+    height: 15vw;
+    margin-top: 4vw;
   }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .cumulus-section img {
+    height: 20vw;
+    width: 28vw;
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 4vw;
+    margin-top: -6vw;
+  }
+
+  .cumulus-section h5 {
+    padding: 1vw 0;
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: -1vw;
+  }
+
+  .blocjams-section img {
+    height: 16vw;
+    width: 28vw;
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 7vw;
+    margin-top: -17vw;
+  }
+
+  .blocjams-section h5 {
+    padding: 1vw 0;
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: -1vw;
+  }
+  .responsive-site-section img {
+    height: 16vw;
+    width: 22vw;
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 9vw;
+    margin-top: -17vw;
+  }
+
+  .responsive-site-section h5 {
+    color: #333;
+    padding: 1vw 0;
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: -1vw;
+  }
+  .work-padding {
+    padding: 0;
+  }
+
   /****************
        Bio Page
    ****************/
@@ -502,19 +619,15 @@ label {
     background-color: #F0F1F4;
     grid-column: 3 / span 8;
     grid-row: 1;
-    padding: 2vw 2vw 3vw 2vw;
+    padding: 2vw 2vw 3vw 3vw;
   }
-
   .bio-summary h2 {
     font-size: 2.25rem;
     margin-left: -6vw;
   }
-
   .about-padding {
     padding-bottom: 2vw;
   }
-
-
   /*****************
   Contact Page
   *****************/
