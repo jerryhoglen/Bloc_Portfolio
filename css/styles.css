@@ -645,10 +645,13 @@ label {
     padding: 0;
   }
   .contact-info ul li {
-    padding: 0 1vw 0 0;
+    padding: 0 1vw .5vw 0;
   }
   .contact-info .contact-padding {
-    padding-bottom: 2vw;
+    padding-bottom: 1vw;
+  }
+  .social-icons ul {
+    padding-bottom: 1vw;
   }
   #contact-wrap {
     width: 40vw;
