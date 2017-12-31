@@ -61,6 +61,23 @@ a:hover {
   color: red;
 }
 
+.btn {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #333333;
+  padding: 10px 5px 10px 5px;
+  text-decoration: none;
+  width: 10vw;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #3091db;
+  text-decoration: none;
+  color: #ffffff
+}
+
 .cumulus-section img {
   height: 40vw;
   width: 55vw;
