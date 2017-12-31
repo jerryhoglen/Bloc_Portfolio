@@ -557,8 +557,137 @@ label {
   text-align: center;
 }
 
+.wireframing-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2vw 0;
+  width: 80vw;
+}
 
+.wireframing-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
 
+.user-testing-section {
+  background-color: #3498D8;
+}
+
+.user-testing-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5vw 0;
+}
+
+.user-testing-section a {
+  background-color: #81EA97;
+  color: #333333;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
+
+.user-testing-section a:hover {
+  background-color: #333333;
+}
+
+.visual-design-section h5 {
+  padding: 5vw 2vw 0 2vw;
+}
+
+.visual-design-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5vw 0;
+  width: 100vw;
+}
+
+.visual-design-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
+
+.user-testing-2-section {
+  background-color: #262262;
+  color: #FFFFFF;
+}
+
+.testing-paragraph {
+  padding-bottom: 2vw;
+}
+
+.user-testing-2-section a {
+  background-color: #81EA97;
+  color: #333333;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
+
+.user-testing-2-section a:hover {
+  background-color: #333333;
+}
+
+.user-testing-2-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5vw 0;
+  width: 80vw;
+}
+
+.prototyping-2-section img {
+  padding: 5vw 0;
+}
+
+.prototyping-2-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
+
+.development-section {
+  background-color: #F0F1F4;
+}
+
+.development-section h5, p {
+  padding: 0 2vw;
+}
+
+.development-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5vw 0;
+  width: 80vw;
+}
+
+.development-section a {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2vw;
+  text-align: center;
+  width: 60vw;
+}
+
+.conclusion-section {
+  background-color: #3498D8;
+}
+
+.conclusion-section h5 {
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+}
 
 @media only screen and (min-width: 600px) {
   nav {
