@@ -68,8 +68,8 @@ a:hover {
   background: #333333;
   padding: 10px 5px 10px 5px;
   text-decoration: none;
-  width: 10vw;
   text-align: center;
+  width: 50vw;
 }
 
 .btn:hover {
@@ -366,6 +366,199 @@ label {
   color: #333;
   font-size: 14px;
 }
+
+/****************
+  CASE STUDY
+  ***************/
+.cumulus-container h5, p {
+  padding: 2vw 2vw 0 2vw;
+}
+
+.site-padding {
+  padding: 0 0 5vw 0;
+}
+
+.cumulus-header img {
+  width: 80vw;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 4vw;
+}
+
+.problem-section {
+  background-color: #3498D8;
+  color: #FFFFFF;
+}
+
+.problem-section h5 {
+  padding-top: 5vw;
+}
+
+.problem-section p {
+  padding: 2vw 2vw 2vw 2vw;
+}
+
+.problem-section ul li {
+  font-size: 1em;
+  padding: 1vw 2vw;
+  font-style: italic;
+}
+
+.solution-section {
+  background-color: #F0F1F4;
+  padding-bottom: 5vw;
+}
+
+.solution-section h5 {
+  padding-top: 5vw;
+}
+
+.solution-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2vw 0;
+}
+
+.solution-section p {
+  padding-bottom: 5vw;
+}
+
+.solution-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.process-section h5 {
+  padding-top: 5vw;
+}
+
+.process-section img {
+  padding: 2vw 0;
+  width: 100vw;
+}
+
+.user-research-section {
+  background-color: #262262;
+  color: #FFFFFF;
+}
+
+.user-research-section h5 {
+  padding: 5vw 2vw 2vw 2vw;
+}
+
+.user-research-section h1 {
+  padding-top: 1.25vw;
+  font-size: 2.2em;
+}
+
+.competitive-analysis-section h5 {
+  padding: 5vw 2vw;
+}
+
+.competitive-analysis-section ul {
+  display: flex;
+  justify-content: center;
+}
+
+.competitive-analysis-section ul li {
+  padding: 2vw 5vw;
+}
+
+.user-personas-section {
+  background-color: #3498D8;
+  color: #FFFFFF;
+}
+
+.user-personas-section h5 {
+  padding: 5vw 2vw 2vw 2vw;
+}
+
+.user-personas-section img {
+  width: 100vw;
+}
+
+.user-flows-section img {
+  width: 100vw;
+  padding: 5vw 0;
+}
+
+.user-flows-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.user-flows-section h5 {
+  padding: 5vw 2vw 2vw 2vw;
+}
+
+.branding-section {
+  background-color: #F0F1F4;
+}
+
+.branding-section h5 {
+  padding-top: 5vw;
+}
+
+.branding-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2vw 0;
+}
+
+.color-palette-img {
+  width: 100vw;
+}
+
+.bitter-font-headings {
+  border: 2px solid #333333;
+  display: block;
+  width: 48vw;
+  margin-left: 2vw;
+}
+
+.bitter-font-headings h1, h2, h3 {
+  font-style: normal;
+  font-family: "bitter";
+  padding: 1vw;
+}
+
+.raleway-font-headings {
+  border: 2px solid #333333;
+  margin: 0 2vw;
+  font-family: "raleway";
+  font-size: 16pt;
+  padding: 1vw;
+}
+
+.example-paragraph {
+  border: 2px solid #333333;
+  margin: 0 2vw;
+  padding: 1vw;
+  margin-bottom: 5vw;
+}
+
+.example-paragraph h3 {
+  font-family: "bitter";
+  padding-bottom: 0;
+}
+
+.example-paragraph p {
+  font-family: "raleway";
+}
+
+.branding-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
 
 @media only screen and (min-width: 600px) {
   nav {
