@@ -370,14 +370,26 @@ label {
 /****************
   CASE STUDY
   ***************/
-.cumulus-container h5, p {
-  padding: 2vw 2vw 0 2vw;
+
+.btn {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #333333;
+  padding: 10px 5px 10px 5px;
+  text-decoration: none;
+  text-align: center;
+  width: 50vw;
 }
 
-.site-padding {
-  padding: 0 0 5vw 0;
+.btn:hover {
+  background: #3091db;
+  text-decoration: none;
+  color: #ffffff
 }
-
+.cumulus-container h5 {
+  padding: 5vw 2vw 2vw 2vw;
+}
 .cumulus-header img {
   width: 80vw;
   display: block;
@@ -419,6 +431,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 2vw 0;
+  width: 80vw;
 }
 
 .solution-section p {
@@ -461,6 +474,10 @@ label {
 .competitive-analysis-section ul {
   display: flex;
   justify-content: center;
+}
+
+.competitive-analysis-section img {
+  width: 15vw;
 }
 
 .competitive-analysis-section ul li {
@@ -515,6 +532,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 2vw 0;
+  width: 80vw;
 }
 
 .color-palette-img {
@@ -589,6 +607,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 5vw 0;
+  width: 80vw;
 }
 
 .user-testing-section a {
@@ -908,13 +927,11 @@ label {
     max-height: 200px;
     margin-top: 4vw;
   }
-
   .grid-2 {
     display: grid;
     grid-template-columns: 60px 1fr;
     grid-template-rows: 1fr;
   }
-
   .cumulus-section img {
     height: 20vw;
     width: 28vw;
@@ -925,14 +942,12 @@ label {
     margin-left: 40px;
     margin-top: -20px;
   }
-
   .cumulus-section h5 {
     padding: 1vw 0;
     grid-column: 1;
     grid-row: 1;
     margin-left: -1vw;
   }
-
   .blocjams-section img {
     height: 16vw;
     width: 28vw;
@@ -943,7 +958,6 @@ label {
     margin-left: 100px;
     margin-top: -220px;
   }
-
   .blocjams-section h5 {
     padding: 1vw 0;
     grid-column: 1;
@@ -960,7 +974,6 @@ label {
     margin-left: 100px;
     margin-top: -225px;
   }
-
   .responsive-site-section h5 {
     color: #333;
     padding: 1vw 0;
@@ -971,7 +984,6 @@ label {
   .work-padding {
     padding: 0;
   }
-
   /****************
        Bio Page
    ****************/
