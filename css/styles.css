@@ -1045,4 +1045,65 @@ label {
   #contact-wrap h2 {
     padding: 0 0 0 2vw;
   }
+
+  /****************
+    CASE STUDY
+    ***************/
+  .cumulus-header img {
+    max-width: 50vw;
+  }
+  .solution-section img {
+    max-width: 30vw;
+  }
+  .process-section img {
+    width: 65vw;
+    display: block;
+    margin: 0 auto;
+  }
+  .competitive-analysis-section img {
+    width: 5vw;
+  }
+  .user-personas-section img {
+    width: 30vw;
+  }
+  .user-flows-section img {
+    width: 50vw;
+  }
+  .branding-section img {
+    width: 30vw;
+  }
+  #color-palette-img {
+    width: 100%;
+    display: block;
+    padding: 0;
+  }
+  .wireframing-section img {
+    max-width: 25vw;
+  }
+  .user-testing-section img {
+    max-width: 30vw;
+  }
+  .visual-design-section img {
+    width: 100%;
+    max-width: 900px;
+    padding: 0;
+  }
+  .user-testing-2-section img {
+    width: 30vw;
+  }
+  .prototyping-2-section img {
+    max-width: 30vw;
+  }
+  .development-section img {
+    max-width: 30vw;
+  }
+  .cumulus-container a {
+    width: 18vw;
+  }
+
+  .user-research-flex {
+    display: flex;
+  }
+
+
 }
