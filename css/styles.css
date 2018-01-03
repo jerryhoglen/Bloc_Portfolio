@@ -688,9 +688,12 @@ label {
 .development-section a {
   display: block;
   margin: 0 auto;
-  margin-bottom: 2vw;
   text-align: center;
   width: 60vw;
+}
+
+a .development-section-button-margin {
+  margin-bottom: 2vw;
 }
 
 .conclusion-section {
