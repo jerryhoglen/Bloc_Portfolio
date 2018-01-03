@@ -372,14 +372,16 @@ label {
   ***************/
 
 .btn {
-  font-family: Arial;
+  font-family: "futura pt";
   color: #ffffff;
   font-size: 15px;
   background: #333333;
   padding: 10px 5px 10px 5px;
   text-decoration: none;
+  text-transform: uppercase;
   text-align: center;
   width: 50vw;
+  letter-spacing: 1px;
 }
 
 .btn:hover {
@@ -390,21 +392,33 @@ label {
 .cumulus-container h5 {
   padding: 5vw 2vw 2vw 2vw;
 }
+
+.cumulus-container p {
+  padding: 0 2vw;
+}
+
+.section-padding-bottom {
+  padding-bottom: 5vw;
+}
+
+.cumulus-container h6 {
+  font-size: 1em;
+  font-weight: normal;
+  padding: 0 2vw;
+}
+
 .cumulus-header img {
-  width: 80vw;
+  width: 90vw;
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 4vw;
+  padding-bottom: 5vw;
 }
 
 .problem-section {
   background-color: #3498D8;
   color: #FFFFFF;
-}
-
-.problem-section h5 {
-  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
 .problem-section p {
@@ -417,21 +431,21 @@ label {
   font-style: italic;
 }
 
+.problem-section ul li .bottom-padding {
+  padding-bottom: 50px;;
+}
+
 .solution-section {
   background-color: #F0F1F4;
   padding-bottom: 5vw;
 }
 
-.solution-section h5 {
-  padding-top: 5vw;
-}
-
 .solution-section img {
+  width: 90vw;
   display: block;
   margin: 0 auto;
   text-align: center;
   padding: 2vw 0;
-  width: 80vw;
 }
 
 .solution-section p {
@@ -444,12 +458,7 @@ label {
   text-align: center;
 }
 
-.process-section h5 {
-  padding-top: 5vw;
-}
-
 .process-section img {
-  padding: 2vw 0;
   width: 100vw;
 }
 
@@ -458,17 +467,9 @@ label {
   color: #FFFFFF;
 }
 
-.user-research-section h5 {
-  padding: 5vw 2vw 2vw 2vw;
-}
-
 .user-research-section h1 {
   padding-top: 1.25vw;
   font-size: 2.2em;
-}
-
-.competitive-analysis-section h5 {
-  padding: 5vw 2vw;
 }
 
 .competitive-analysis-section ul {
@@ -489,16 +490,12 @@ label {
   color: #FFFFFF;
 }
 
-.user-personas-section h5 {
-  padding: 5vw 2vw 2vw 2vw;
-}
-
 .user-personas-section img {
   display: block;
   margin: 0 auto;
   text-align: center;
   padding: 2vw 0;
-  width: 75vw;
+  width: 100vw;
 }
 
 .user-flows-section img {
@@ -506,7 +503,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 2vw 0;
-  width: 80vw;
+  width: 100vw;
 }
 
 .user-flows-section a {
@@ -515,27 +512,15 @@ label {
   text-align: center;
 }
 
-.user-flows-section h5 {
-  padding: 5vw 2vw 2vw 2vw;
-}
-
 .branding-section {
   background-color: #F0F1F4;
-}
-
-.branding-section h5 {
-  padding-top: 5vw;
 }
 
 .branding-section img {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 2vw 0;
-  width: 80vw;
-}
-
-.color-palette-img {
+  padding: 5vw 0 0 0;
   width: 100vw;
 }
 
@@ -586,8 +571,8 @@ label {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 2vw 0;
-  width: 80vw;
+  padding: 2vw 0 5vw 0;
+  width: 90vw;
 }
 
 .wireframing-section a {
@@ -607,7 +592,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 5vw 0;
-  width: 80vw;
+  width: 90vw;
 }
 
 .user-testing-section a {
@@ -623,9 +608,6 @@ label {
   background-color: #333333;
 }
 
-.visual-design-section h5 {
-  padding: 5vw 2vw 0 2vw;
-}
 
 .visual-design-section img {
   display: block;
@@ -648,7 +630,7 @@ label {
 }
 
 .testing-paragraph {
-  padding-bottom: 2vw;
+  padding-bottom: 5vw;
 }
 
 .user-testing-2-section a {
@@ -669,7 +651,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 5vw 0;
-  width: 80vw;
+  width: 90vw;
 }
 
 .prototyping-2-section img {
@@ -677,7 +659,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 5vw 0;
-  width: 80vw;
+  width: 90vw;
 }
 
 .prototyping-2-section a {
@@ -691,7 +673,7 @@ label {
   background-color: #F0F1F4;
 }
 
-.development-section h5, p {
+.development-section p {
   padding: 0 2vw;
 }
 
@@ -700,7 +682,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 5vw 0;
-  width: 80vw;
+  width: 90vw;
 }
 
 .development-section a {
@@ -713,11 +695,11 @@ label {
 
 .conclusion-section {
   background-color: #3498D8;
+  color: #FFFFFF;
 }
 
-.conclusion-section h5 {
-  padding-top: 5vw;
-  padding-bottom: 2vw;
+.conclusion-section p {
+  padding: 0 2vw;
 }
 
 @media only screen and (min-width: 600px) {
