@@ -441,7 +441,7 @@ label {
 }
 
 .solution-section img {
-  width: 90vw;
+  width: 92vw;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -495,7 +495,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 2vw 0;
-  width: 100vw;
+  width: 95vw;
 }
 
 .user-flows-section img {
@@ -503,6 +503,10 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 2vw 0;
+  width: 92vw;
+}
+
+#color-palette-img{
   width: 100vw;
 }
 
@@ -521,7 +525,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 5vw 0 0 0;
-  width: 100vw;
+  width: 92vw;
 }
 
 .bitter-font-headings {
@@ -577,7 +581,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 2vw 0 5vw 0;
-  width: 90vw;
+  width: 92vw;
 }
 
 .wireframing-section a {
@@ -597,7 +601,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 5vw 0;
-  width: 90vw;
+  width: 92vw;
 }
 
 #user-testing-h5-padding {
@@ -662,7 +666,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 5vw 0;
-  width: 90vw;
+  width: 92vw;
 }
 
 .prototyping-2-section img {
@@ -670,7 +674,7 @@ label {
   margin: 0 auto;
   text-align: center;
   padding: 5vw 0;
-  width: 90vw;
+  width: 92vw;
 }
 
 .prototyping-2-section a {
