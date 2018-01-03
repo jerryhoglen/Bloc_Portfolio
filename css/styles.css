@@ -372,7 +372,7 @@ label {
   ***************/
 
 .btn {
-  font-family: "futura pt";
+  font-family: "futura-pt", sans-serif;
   color: #ffffff;
   font-size: 15px;
   background: #333333;
