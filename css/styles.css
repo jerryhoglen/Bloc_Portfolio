@@ -526,15 +526,21 @@ label {
 
 .bitter-font-headings {
   border: 2px solid #333333;
+  font-family: "bitter";
   display: block;
-  width: 48vw;
+  width: 36vw;
   margin-left: 2vw;
 }
 
-.bitter-font-headings {
+#bitter-font-styling h1, h2, h3 {
   font-style: normal;
+  padding: 0;
+  padding-left: 4vw;
+}
+
+#bitter-h3-example {
   font-family: "bitter";
-  padding: 1vw;
+  padding: 1vw 4vw;
 }
 
 .raleway-font-headings {
