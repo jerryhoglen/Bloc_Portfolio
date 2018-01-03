@@ -1130,7 +1130,45 @@ label {
   .section-padding-bottom {
     padding-bottom: 2vw;
   }
-
+  .personas-grid {
+    display: grid;
+    grid-template-columns: 300px 360px 300px;
+  }
+  #john-img {
+    width: 40vw;
+    z-index: 1000;
+    margin-top: -3vw;
+  }
+  .branding-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .branding-intro {
+    grid-column: 1 / span 2;
+  }
+  .cumulus-sketch {
+    grid-column: 2;
+  }
+  .cumulus-sketch-p {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .cumulus-logo-illustrator {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .cumulus-logo-illustrator p {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .final-logo {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .final-logo p {
+    grid-column: 1;
+    grid-row: 4;
+  }
 
 
 }
