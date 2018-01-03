@@ -600,6 +600,11 @@ label {
   width: 90vw;
 }
 
+#user-testing-h5-padding {
+  padding: 0;
+  padding: 0 4vw 2vw 4vw;
+}
+
 .user-testing-section a {
   background-color: #81EA97;
   color: #333333;
