@@ -1051,6 +1051,7 @@ label {
     ***************/
   .cumulus-header img {
     max-width: 50vw;
+    padding: 5vw 0;
   }
   .solution-section img {
     max-width: 30vw;
@@ -1100,10 +1101,36 @@ label {
   .cumulus-container a {
     width: 18vw;
   }
-
   .user-research-flex {
     display: flex;
+    justify-content: space-between;
   }
+  .cumulus-container h5 {
+    font-size: 14px;
+    padding: 2vw 4vw 1vw 4vw;
+  }
+  .cumulus-container h6 {
+    padding: 0 2.75vw;
+    font-size: 1.3em;
+  }
+  .cumulus-container p {
+    font-size: 20px;
+    padding: 0 4vw;
+  }
+  .problem-section ul li {
+    font-size: 18px;
+    padding: .5vw 4vw;
+  }
+  .problem-section {
+    padding-bottom: 2vw;
+  }
+  .solution-section {
+    padding-bottom: 2vw;
+  }
+  .section-padding-bottom {
+    padding-bottom: 2vw;
+  }
+
 
 
 }
