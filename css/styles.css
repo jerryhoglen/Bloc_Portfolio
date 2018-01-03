@@ -531,7 +531,7 @@ label {
   margin-left: 2vw;
 }
 
-.bitter-font-headings h1, h2, h3 {
+.bitter-font-headings {
   font-style: normal;
   font-family: "bitter";
   padding: 1vw;
@@ -553,7 +553,6 @@ label {
 }
 
 .example-paragraph h3 {
-  font-family: "bitter";
   padding-bottom: 0;
 }
 
@@ -640,6 +639,7 @@ label {
   margin: 0 auto;
   text-align: center;
   width: 60vw;
+  margin-top: 5vw;
 }
 
 .user-testing-2-section a:hover {
