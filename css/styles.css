@@ -390,11 +390,11 @@ label {
   color: #ffffff
 }
 .cumulus-container h5 {
-  padding: 5vw 2vw 2vw 2vw;
+  padding: 5vw 4vw 2vw 4vw;
 }
 
 .cumulus-container p {
-  padding: 0 2vw;
+  padding: 0 4vw;
 }
 
 .section-padding-bottom {
@@ -404,7 +404,7 @@ label {
 .cumulus-container h6 {
   font-size: 1em;
   font-weight: normal;
-  padding: 0 2vw;
+  padding: 0 4vw;
 }
 
 .cumulus-header img {
@@ -422,12 +422,12 @@ label {
 }
 
 .problem-section p {
-  padding: 2vw 2vw 2vw 2vw;
+  padding: 2vw 4vw 2vw 4vw;
 }
 
 .problem-section ul li {
   font-size: 1em;
-  padding: 1vw 2vw;
+  padding: 1vw 4vw;
   font-style: italic;
 }
 
@@ -674,7 +674,7 @@ label {
 }
 
 .development-section p {
-  padding: 0 2vw;
+  padding: 0 4vw;
 }
 
 .development-section img {
@@ -702,7 +702,7 @@ label {
 }
 
 .conclusion-section p {
-  padding: 0 2vw;
+  padding: 0 4vw;
 }
 
 @media only screen and (min-width: 600px) {
