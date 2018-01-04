@@ -389,6 +389,7 @@ label {
   text-decoration: none;
   color: #ffffff
 }
+
 .cumulus-container h5 {
   padding: 5vw 4vw 2vw 4vw;
 }
@@ -432,7 +433,8 @@ label {
 }
 
 .problem-section ul li .bottom-padding {
-  padding-bottom: 50px;;
+  padding-bottom: 50px;
+  ;
 }
 
 .solution-section {
@@ -506,7 +508,7 @@ label {
   width: 92vw;
 }
 
-#color-palette-img{
+#color-palette-img {
   width: 100vw;
 }
 
@@ -536,7 +538,7 @@ label {
   margin-left: 2vw;
 }
 
-#bitter-font-styling h1, h2, h3 {
+.bitter-font-styling {
   font-style: normal;
   padding: 0;
   padding-left: 4vw;
@@ -621,7 +623,6 @@ label {
 .user-testing-section a:hover {
   background-color: #333333;
 }
-
 
 .visual-design-section img {
   display: block;
@@ -1046,7 +1047,6 @@ label {
   #contact-wrap h2 {
     padding: 0 0 0 2vw;
   }
-
   /****************
     CASE STUDY
     ***************/
@@ -1058,7 +1058,7 @@ label {
     max-width: 30vw;
   }
   .process-section img {
-    width: 65vw;
+    width: 70vw;
     display: block;
     margin: 0 auto;
   }
@@ -1069,7 +1069,7 @@ label {
     width: 30vw;
   }
   .user-flows-section img {
-    width: 50vw;
+    width: 70vw;
   }
   .branding-section img {
     width: 30vw;
@@ -1114,7 +1114,7 @@ label {
   }
   .cumulus-container h5 {
     font-size: 14px;
-    padding: 2vw 4vw 1vw 4vw;
+    padding: 2vw 4vw 2vw 4vw;
   }
   .cumulus-container h6 {
     padding: 0 2.75vw;
@@ -1159,6 +1159,18 @@ label {
     margin: 0 auto;
   }
   .solution-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .process-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .process-section h5 {
     max-width: 960px;
     margin: 0 auto;
   }
@@ -1218,8 +1230,26 @@ label {
     width: 35vw;
   }
   .branding-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .branding-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .branding-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  #branding-body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 480px 480px;
+    max-width: 960px;
+    margin: 0 auto;
   }
   .branding-intro {
     grid-column: 1 / span 2;
@@ -1232,11 +1262,11 @@ label {
     grid-row: 2;
   }
   .cumulus-logo-illustrator {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 3;
   }
   .cumulus-logo-illustrator p {
-    grid-column: 1;
+    grid-column: 2;
     grid-row: 3;
   }
   .final-logo {
@@ -1247,6 +1277,127 @@ label {
     grid-column: 1;
     grid-row: 4;
   }
-
-
+  .color-palette-h5 {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  #color-palette-img {
+    grid-column: 1 / span 2;
+    grid-row: 6;
+  }
+  .typography-grid {
+    grid-column: 1 / span 2;
+    grid-row: 7;
+  }
+  .bitter-header-grid {
+    grid-column: 1;
+    grid-row: 8;
+  }
+  .raleway-paragraph-grid {
+    grid-column: 2;
+    grid-row: 8;
+  }
+  .example-paragraph-grid {
+    grid-column: 1 / span 2;
+    grid-row: 9;
+  }
+  .btn-grid {
+    grid-column: 1 / span 2;
+    grid-row: 10;
+  }
+  .wireframing-section  {
+    display: grid;
+    grid-template-columns: 480px 480px;
+  }
+  .wireframing-intro-grid {
+    grid-column: 1 / span 2;
+  }
+  .balsamiq-homepage-grid {
+    grid-column: 1;
+    grid-row: 2 / span 1;
+  }
+  .balsamiq-btn {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+  }
+  .wireframing-illustrator-grid {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+  }
+  .illustrator-homepage-grid {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .illustrator-wireframes-grid {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  .illustrator-btn {
+    grid-column: 1 / span 2;
+    grid-row: 6;    
+  }
+  .user-testing-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .user-testing-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .user-testing-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .user-testing-2-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .user-testing-2-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .user-testing-2-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .development-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .development-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .development-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .conclusion-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .conclusion-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .conclusion-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 }
