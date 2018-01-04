@@ -813,6 +813,7 @@ label {
 
 @media only screen and (min-width: 992px) {
   body {
+    overflow-x: hidden;
     min-height: 100vh;
     max-width: 960px;
   }
@@ -1105,6 +1106,9 @@ label {
     display: flex;
     justify-content: space-between;
   }
+  .section-desktop-padding {
+    padding: 0 50px;
+  }
   .cumulus-container h5 {
     font-size: 14px;
     padding: 2vw 4vw 1vw 4vw;
@@ -1119,16 +1123,24 @@ label {
   }
   .problem-section ul li {
     font-size: 18px;
-    padding: .5vw 4vw;
+    padding: 1vw 4vw;
+    max-width: 960px;
+    margin: 0 auto;
   }
   .problem-section {
-    padding-bottom: 2vw;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
   }
-  .solution-section {
-    padding-bottom: 2vw;
+  .problem-section h5 {
+    padding-left: 297px;
   }
-  .section-padding-bottom {
-    padding-bottom: 2vw;
+  .problem-section p {
+    max-width: 960px;
+    margin: 0 auto;
   }
   .personas-grid {
     display: grid;
