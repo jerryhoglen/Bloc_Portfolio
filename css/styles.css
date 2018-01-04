@@ -1106,8 +1106,11 @@ label {
     display: flex;
     justify-content: space-between;
   }
+  #cumulus-header-padding {
+    padding: 0;
+  }
   .section-desktop-padding {
-    padding: 0 50px;
+    margin: 5vw 0 5vw 0;
   }
   .cumulus-container h5 {
     font-size: 14px;
@@ -1136,20 +1139,83 @@ label {
     margin-right: -50vw;
   }
   .problem-section h5 {
-    padding-left: 297px;
+    max-width: 960px;
+    margin: 0 auto;
   }
   .problem-section p {
     max-width: 960px;
     margin: 0 auto;
   }
+  .solution-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .solution-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .solution-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .user-research-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .user-research-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .user-research-flex {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .user-personas-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .user-personas-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .user-personas-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
   .personas-grid {
+    max-width: 960px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 300px 360px 300px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #alex-img {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    width: 35vw;
   }
   #john-img {
+    grid-column: 2 / span 2;
+    grid-row: 1;
     width: 40vw;
+    margin-top: -2vw;
     z-index: 1000;
-    margin-top: -3vw;
+  }
+  #kaylie-img {
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    width: 35vw;
   }
   .branding-section {
     display: grid;
