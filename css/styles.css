@@ -1104,13 +1104,14 @@ label {
   }
   .visual-design-section img {
     width: 100%;
-    max-width: 900px;
+    max-width: 960px;
     padding: 0;
     padding-top: 20px;
     padding-bottom: 30px;
   }
   .user-testing-2-section img {
     width: 30vw;
+    padding: 40px 0 10px 0;
   }
   #navflow-img {
     width: 50vw;
@@ -1453,10 +1454,19 @@ label {
   .user-testing-2-section h5 {
     max-width: 960px;
     margin: 0 auto;
+    padding-bottom: 10px;
   }
   .user-testing-2-section p {
     max-width: 960px;
     margin: 0 auto;
+  }
+  #user-testing-2-padding {
+    padding-top: 20px;
+  }
+  #testing-desktop-margin {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .add-button-test {
     margin: 0 auto;
@@ -1465,7 +1475,7 @@ label {
     grid-template-columns: 1fr 1fr;
   }
   .add-button-test img {
-    padding: 5vw 20px 2vw 20px;
+    padding: 50px 20px 20px 20px;
     width: 35vw;
   }
   .add-button-1 {
@@ -1473,6 +1483,12 @@ label {
   }
   .add-button-2 {
     grid-column: 2;
+  }
+  .prototyping-2-section h5 {
+    padding-bottom: 10px;
+  }
+  .prototyping-2-section img {
+    padding: 30px 0;
   }
   .development-section {
     width: 100vw;
@@ -1485,10 +1501,24 @@ label {
   .development-section h5 {
     max-width: 960px;
     margin: 0 auto;
+    padding-bottom: 10px;
   }
   .development-section p {
     max-width: 960px;
     margin: 0 auto;
+  }
+  .development-section img {
+    padding: 30px 0;
+  }
+  .development-button ul {
+    margin-left: 30.25%;
+  }
+  .development-button li {
+    display: inline-flex;
+    padding: 0 10px;
+  }
+  #testing-margin {
+    margin: 0;
   }
   .conclusion-section {
     width: 100vw;
@@ -1501,6 +1531,7 @@ label {
   .conclusion-section h5 {
     max-width: 960px;
     margin: 0 auto;
+    padding-bottom: 10px;
   }
   .conclusion-section p {
     max-width: 960px;
