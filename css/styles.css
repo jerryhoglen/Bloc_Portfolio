@@ -1124,6 +1124,7 @@ label {
   }
   .conclusion-section img {
     max-width: 40vw;
+    padding: 30px 0 0 0;
   }
   .cumulus-container a {
     width: 18vw;
