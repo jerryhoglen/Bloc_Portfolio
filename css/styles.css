@@ -1106,6 +1106,8 @@ label {
     width: 100%;
     max-width: 900px;
     padding: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
   .user-testing-2-section img {
     width: 30vw;
@@ -1421,11 +1423,25 @@ label {
   .user-testing-section h5 {
     max-width: 960px;
     margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  #user-testing-h5-padding {
+    padding: 20px 4vw 10px 4vw;
+  }
+  .user-testing-section img {
+    padding: 30px 0;
   }
   .user-testing-section p {
     max-width: 960px;
     margin: 0 auto;
   }
+  .visual-design-section p {
+    padding: 10px 4vw 30px 4vw;
+  }
+  .visual-design-section h5 {
+    padding: 0 4vw;
+  }
+
   .user-testing-2-section {
     width: 100vw;
     position: relative;
