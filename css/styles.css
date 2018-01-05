@@ -1211,6 +1211,9 @@ label {
     max-width: 960px;
     margin: 0 auto;
   }
+  .user-research-section h1 {
+    font-size: 3em;
+  }
   .user-research-flex {
     max-width: 960px;
     margin: 0 auto;
