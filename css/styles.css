@@ -1095,8 +1095,9 @@ label {
     padding-top: 15px;
   }
   .wireframing-section img {
-    max-width: 25vw;
+    max-width: 32vw;
     padding-bottom: 2vw;
+    padding-left: 1vw;
   }
   .user-testing-section img {
     max-width: 40vw;
@@ -1108,6 +1109,9 @@ label {
   }
   .user-testing-2-section img {
     width: 30vw;
+  }
+  #navflow-img {
+    width: 50vw;
   }
   .prototyping-2-section img {
     max-width: 40vw;
@@ -1140,7 +1144,7 @@ label {
     font-size: 1.3em;
   }
   .problem-section ul li {
-    font-size: 18px;
+    font-size: 20px;
     padding: 1vw 4vw;
     max-width: 960px;
     margin: 0 auto;
@@ -1312,6 +1316,7 @@ label {
   }
   #bitter-h3-example {
     padding: 0;
+    font-size: 1.6em;
   }
   #bitter-p-desktop-padding {
     padding: 0;
