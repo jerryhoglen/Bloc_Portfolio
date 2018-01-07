@@ -123,7 +123,7 @@ nav {
 }
 
 nav p a {
-  font-size: .95rem;
+  font-size: 1rem;
 }
 
 .nav-right ul li a:active {
@@ -137,6 +137,10 @@ nav p a {
 
 .nav-right {
   padding-right: 10px;
+}
+
+.nav-right ul li {
+  font-size: 1rem;
 }
 
 .nav-footer-spacing {
