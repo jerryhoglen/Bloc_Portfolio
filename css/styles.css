@@ -1087,10 +1087,10 @@ label {
     CASE STUDY
     ***************/
   .cumulus-container p {
-    font-size: 20px;
+    font-size: 22px;
    }
   .cumulus-header p {
-    padding: 10px 4vw 0 4vw;
+    padding: 10px 9vw 0 9vw;
   }
   .cumulus-header img {
     max-width: 50vw;
@@ -1169,15 +1169,21 @@ label {
   }
   .cumulus-container h5 {
     font-size: 14px;
-    padding: 0vw 4vw 0vw 4vw;
+    padding: 0vw 9vw 0vw 9vw;
+  }
+  .cumulus-container p {
+    padding: 0 9vw;
   }
   .cumulus-container h6 {
     padding: 0 2.75vw;
     font-size: 1.3em;
   }
+  .problem-section ul {
+    padding-top: 10px;
+  }
   .problem-section ul li {
     font-size: 20px;
-    padding: 1vw 4vw;
+    padding: 1vw 11vw;
     max-width: 960px;
     margin: 0 auto;
   }
@@ -1196,7 +1202,7 @@ label {
   .problem-section p {
     max-width: 960px;
     margin: 0 auto;
-    padding: 10px 4vw 0 4vw;
+    padding: 10px 9vw 0 9vw;
   }
   .solution-section {
     width: 100vw;
@@ -1215,8 +1221,8 @@ label {
     margin: 0 auto;
     padding: 0;
     padding-top: 10px;
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 9vw;
+    padding-right: 9vw;
   }
   #solution-img-padding {
     padding: 30px 0;
@@ -1487,10 +1493,10 @@ label {
     margin: 0 auto;
   }
   .visual-design-section p {
-    padding: 10px 4vw 30px 4vw;
+    padding: 10px 9vw 30px 9vw;
   }
   .visual-design-section h5 {
-    padding: 0 4vw;
+    padding: 0 9vw;
   }
 
   .user-testing-2-section {
