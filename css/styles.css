@@ -427,7 +427,7 @@ label {
 .problem-section {
   background-color: #3498D8;
   color: #FFFFFF;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .problem-section p {
@@ -455,7 +455,7 @@ label {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 2vw 0;
+  padding: 2vw 0 5vw 0;
 }
 
 .solution-section p {
@@ -1173,6 +1173,9 @@ label {
   }
   .cumulus-container p {
     padding: 0 9vw;
+  }
+  #summary-padding {
+    padding-bottom: 10px;
   }
   .cumulus-container h6 {
     padding: 0 2.75vw;
