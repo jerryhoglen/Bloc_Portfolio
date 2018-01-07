@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: lighter;
 }
 
@@ -43,7 +43,7 @@ h5 {
 }
 
 p {
-  font-size: .95rem;
+  font-size: 1.3rem;
   font-weight: lighter;
 }
 
@@ -120,6 +120,10 @@ nav {
   padding: 30px 20px;
   display: flex;
   justify-content: space-between;
+}
+
+nav p a {
+  font-size: .95rem;
 }
 
 .nav-right ul li a:active {
@@ -391,7 +395,7 @@ label {
 }
 
 .cumulus-container h5 {
-  padding: 5vw 4vw 2vw 4vw;
+  padding: 30px 4vw 2vw 4vw;
 }
 
 .cumulus-container p {
@@ -399,11 +403,11 @@ label {
 }
 
 .section-padding-bottom {
-  padding-bottom: 5vw;
+  padding-bottom: 30px;
 }
 
 .cumulus-container h6 {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: normal;
   padding: 0 4vw;
 }
@@ -419,7 +423,7 @@ label {
 .problem-section {
   background-color: #3498D8;
   color: #FFFFFF;
-  padding-bottom: 5vw;
+  padding-bottom: 50px;
 }
 
 .problem-section p {
@@ -427,19 +431,19 @@ label {
 }
 
 .problem-section ul li {
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 1vw 4vw;
   font-style: italic;
 }
 
 .problem-section ul li .bottom-padding {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   ;
 }
 
 .solution-section {
   background-color: #F0F1F4;
-  padding-bottom: 5vw;
+  padding-bottom: 30px;
 }
 
 .solution-section img {
@@ -498,6 +502,14 @@ label {
   text-align: center;
   padding: 2vw 0;
   width: 95vw;
+}
+
+#alex-img {
+  display: none;
+}
+
+#kaylie-img {
+  display: none;
 }
 
 .user-flows-section img {
@@ -591,6 +603,14 @@ label {
   margin: 0 auto;
   text-align: center;
   width: 60vw;
+}
+
+.balsamiq-dashboard-grid {
+  display: none;
+}
+
+.illustrator-wireframes-grid {
+  display: none;
 }
 
 .user-testing-section {
@@ -1243,6 +1263,7 @@ label {
     grid-template-columns: repeat(4, 1fr);
   }
   #alex-img {
+    display: grid;
     grid-column: 1 / span 2;
     grid-row: 1;
     width: 35vw;
@@ -1255,6 +1276,7 @@ label {
     z-index: 1000;
   }
   #kaylie-img {
+    display: grid;
     grid-column: 3 / span 2;
     grid-row: 1;
     width: 35vw;
@@ -1397,6 +1419,9 @@ label {
     grid-column: 1;
     grid-row: 2 / span 1;
   }
+  .balsamiq-dashboard-grid {
+    display: grid;
+  }
   .balsamiq-btn {
     grid-column: 1 / span 2;
     grid-row: 3;
@@ -1410,6 +1435,7 @@ label {
     grid-row: 5;
   }
   .illustrator-wireframes-grid {
+    display: grid;
     grid-column: 2;
     grid-row: 5;
   }
