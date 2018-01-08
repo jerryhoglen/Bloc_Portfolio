@@ -944,6 +944,7 @@ label {
   }
   .mobile-width-padding {
     padding: 0;
+    text-align: left;
   }
   .cumulus-section {
     grid-column: 1 / span 4;
