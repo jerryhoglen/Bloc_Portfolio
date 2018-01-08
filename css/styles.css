@@ -164,6 +164,7 @@ footer {
 
 footer li {
   list-style-type: none;
+  font-size: 1rem;
 }
 
 .footer-right ul {
@@ -432,7 +433,6 @@ label {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 5vw;
 }
 
 .problem-section {
@@ -446,8 +446,8 @@ label {
 }
 
 .problem-section ul li {
-  font-size: 1.2em;
-  padding: 1vw 1vw;
+  font-size: 1.25em;
+  padding-top: 1vw;
   font-style: italic;
 }
 
@@ -557,7 +557,8 @@ label {
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 5vw 0 0 0;
+  padding: 0;
+  padding: 50px 0 0 0;
   width: 92vw;
 }
 
@@ -860,6 +861,9 @@ label {
   }
   footer {
     padding: 75px 0 30px 0;
+  }
+  footer li {
+    font-size: 1.2rem;
   }
   nav a {
     font-size: 1.2rem;
@@ -1199,6 +1203,7 @@ label {
     padding: 0 9vw;
   }
   #summary-padding {
+    padding-top: 50px;
     padding-bottom: 10px;
   }
   .cumulus-container h6 {
@@ -1359,7 +1364,7 @@ label {
     padding-top: 10px;
   }
   #branding-section-h5-padding {
-    padding: 92px 1vw 10px 1vw;
+    padding: 50px 1vw 10px 1vw;
   }
   #branding-paragraph {
     padding: 0;
