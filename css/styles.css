@@ -393,9 +393,13 @@ label {
 }
 
 .btn:hover {
-  background: #3091db;
+  background: #808080;
   text-decoration: none;
   color: #ffffff
+}
+
+#paragraph-padding {
+  padding-top: 10px;
 }
 
 .cumulus-container h5 {
@@ -496,7 +500,7 @@ label {
 }
 
 .user-personas-section {
-  background-color: #3498D8;
+  background-color: #5F81A3;
   color: #FFFFFF;
 }
 
@@ -642,16 +646,10 @@ label {
 }
 
 .user-testing-section a {
-  background-color: #81EA97;
-  color: #333333;
   display: block;
   margin: 0 auto;
   text-align: center;
   width: 60vw;
-}
-
-.user-testing-section a:hover {
-  background-color: #333333;
 }
 
 .visual-design-section img {
@@ -670,8 +668,8 @@ label {
 }
 
 .user-testing-2-section {
-  background-color: #262262;
-  color: #FFFFFF;
+  background-color: #F0F1F4;
+  color: #333333;
 }
 
 .testing-paragraph {
@@ -679,17 +677,11 @@ label {
 }
 
 .user-testing-2-section a {
-  background-color: #81EA97;
-  color: #333333;
   display: block;
   margin: 0 auto;
   text-align: center;
   width: 60vw;
   margin-top: 5vw;
-}
-
-.user-testing-2-section a:hover {
-  background-color: #333333;
 }
 
 .user-testing-2-section img {
@@ -743,7 +735,7 @@ label {
 }
 
 .conclusion-section {
-  background-color: #3498D8;
+  background-color: #5F81A3;
   color: #FFFFFF;
 }
 
@@ -890,7 +882,7 @@ label {
     font-size: .65rem;
   }
   h5 {
-    font-size: .85rem;
+    font-size: 1.3rem;
   }
   p {
     font-size: .95rem;
@@ -1095,13 +1087,16 @@ label {
     padding: 10px 9vw 0 9vw;
   }
   .cumulus-header img {
-    max-width: 50vw;
+    width: 50vw;
+    max-width: 800px;
   }
   .solution-section img {
-    max-width: 40vw;
+    width: 40vw;
+    max-width: 500px;
   }
   .process-section img {
     width: 70vw;
+    max-width: 900px;
     display: block;
     margin: 0 auto;
   }
@@ -1110,27 +1105,31 @@ label {
   }
   .user-personas-section img {
     width: 30vw;
+    max-width: 500px;
   }
   .user-flows-section img {
     width: 70vw;
+    max-width: 800px;
   }
   .branding-section img {
-    width: 30vw;
-    padding-top: 4vw;
+    width: 100%;
+    padding-left: 1vw;
   }
   #color-palette-img {
-    width: 100%;
+    width: 900px;
     display: block;
     padding: 0;
     padding-top: 15px;
   }
   .wireframing-section img {
-    max-width: 32vw;
-    padding-bottom: 2vw;
-    padding-left: 1vw;
+    padding: 0;
+    margin: 0;
+    width: 32vw;
+    max-width: 450px;
   }
   .user-testing-section img {
-    max-width: 40vw;
+    width: 40vw;
+    max-width: 500px;
   }
   .visual-design-section img {
     width: 100%;
@@ -1145,12 +1144,18 @@ label {
   }
   #navflow-img {
     width: 50vw;
+    max-width: 500px;
+    border: 2px solid #333333;
+    padding: 0;
+    margin-top: 30px;
   }
   .prototyping-2-section img {
-    max-width: 40vw;
+    width: 40vw;
+    max-width: 500px;
   }
   .development-section img {
-    max-width: 40vw;
+    width: 40vw;
+    max-width: 500px;
   }
   .conclusion-section img {
     max-width: 40vw;
@@ -1170,7 +1175,7 @@ label {
     padding: 4vw 0 4vw 0;
   }
   .cumulus-container h5 {
-    font-size: 14px;
+    font-size: 20px;
     padding: 0vw 9vw 0vw 9vw;
   }
   .cumulus-container p {
@@ -1333,13 +1338,11 @@ label {
     padding-top: 10px;
   }
   #branding-section-h5-padding {
-    padding: 50px 4vw 10px 50px;
+    padding: 92px 1vw 10px 1vw;
   }
-  #branding-section-h5-paragraphs {
+  #branding-paragraph {
     padding: 0;
-    padding-top: 50px;
-    padding-left: 2vw;
-    padding-bottom: 20px;
+    padding: 0 1vw;
   }
   #example-padding {
     padding-top: 10px;
@@ -1351,8 +1354,8 @@ label {
     max-width: 960px;
     margin: 0 auto;
   }
-  #branding-paragraph {
-    padding: 0 4vw;
+  .typography-grid h5 {
+    padding-top: 30px;
   }
   .bitter-header-grid h5 {
     padding-bottom: 20px;
@@ -1360,19 +1363,27 @@ label {
   .branding-intro {
     grid-column: 1 / span 2;
   }
+  .bitter-header-grid h5 {
+    padding: 0;
+    padding: 30px 2vw 10px 2vw;
+  }
   .bitter-font-headings {
     width: auto;
-    margin-left: 4vw;
+    margin-left: 2vw;
   }
   .bitter-font-styling  {
     padding: 1vw;
   }
-  .example-paragraph {
-    margin: 0 4vw;
-  }
   .raleway-font-headings {
-    margin: 0 4vw 0 25px;
     padding: 0;
+  }
+  .raleway-paragraph-grid h5 {
+    padding: 0;
+    padding: 30px 2vw 10px 2vw;
+  }
+  .example-paragraph-grid h5 {
+    padding: 0;
+    padding: 30px 2vw 10px 2vw;
   }
   #raleway-desktop-padding {
     padding: 1vw;
@@ -1387,6 +1398,14 @@ label {
   }
   #example-paragraph-desktop-padding {
     margin-bottom: 30px;
+  }
+  #color-palette-img {
+    display: block;
+    padding: 0;
+    padding-top: 15px;
+  }
+  .color-palette-h5 {
+    padding: 0;
   }
   .cumulus-sketch {
     grid-column: 2;
@@ -1444,7 +1463,8 @@ label {
     padding-top: 10px;
   }
   #wireframing-section-h5-padding {
-    padding-top: 30px;
+    padding: 0;
+    padding: 30px 0;
   }
   .wireframing-intro-grid {
     grid-column: 1 / span 2;
@@ -1452,6 +1472,7 @@ label {
   .balsamiq-homepage-grid {
     grid-column: 1;
     grid-row: 2 / span 1;
+    padding-bottom: 30px;
   }
   .balsamiq-dashboard-grid {
     display: grid;
@@ -1464,9 +1485,13 @@ label {
     grid-column: 1 / span 2;
     grid-row: 4;
   }
+  .wireframing-illustrator-grid h5 {
+    padding-top: 75px;
+  }
   .illustrator-homepage-grid {
     grid-column: 1;
     grid-row: 5;
+    padding-bottom: 30px;
   }
   .illustrator-wireframes-grid {
     display: grid;
@@ -1541,6 +1566,7 @@ label {
   .add-button-test img {
     padding: 50px 20px 20px 20px;
     width: 35vw;
+    max-width: 500px;
   }
   .add-button-1 {
     grid-column: 1;
