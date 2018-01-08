@@ -1425,8 +1425,9 @@ label {
     padding: 0;
     padding-top: 15px;
   }
-  .color-palette-h5 {
+  #color-palette-h5 {
     padding: 0;
+    padding-left: 2vw;
   }
   .cumulus-sketch {
     grid-column: 2;
