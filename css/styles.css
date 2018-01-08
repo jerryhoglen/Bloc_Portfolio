@@ -38,7 +38,7 @@ h4 {
 }
 
 h5 {
-  font-size: .85rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -48,7 +48,6 @@ p {
 }
 
 li {
-  list-style-type: none;
   font-size: .85rem;
 }
 
@@ -131,6 +130,10 @@ nav p a {
   padding-bottom: 1px;
 }
 
+nav li {
+  list-style-type: none;
+}
+
 .nav-right ul {
   display: inline-flex;
 }
@@ -157,6 +160,10 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 30px 4vw;
+}
+
+footer li {
+  list-style-type: none;
 }
 
 .footer-right ul {
@@ -440,13 +447,12 @@ label {
 
 .problem-section ul li {
   font-size: 1.2em;
-  padding: 1vw 4vw;
+  padding: 1vw 1vw;
   font-style: italic;
 }
 
 .problem-section ul li .bottom-padding {
   padding-bottom: 30px;
-  ;
 }
 
 .solution-section {
@@ -497,6 +503,7 @@ label {
 
 .competitive-analysis-section ul li {
   padding: 2vw 5vw;
+  list-style-type: none;
 }
 
 .user-personas-section {
@@ -854,6 +861,12 @@ label {
   footer {
     padding: 75px 0 30px 0;
   }
+  nav a {
+    font-size: 1.2rem;
+  }
+  nav p a {
+    font-size: 1.2rem;
+  }
   .nav-right {
     padding: 0;
   }
@@ -1080,6 +1093,9 @@ label {
   /****************
     CASE STUDY
     ***************/
+  #list-style {
+      list-style-type: circle;
+    }
   .cumulus-container p {
     font-size: 22px;
    }
@@ -1189,13 +1205,17 @@ label {
     font-size: 1.3em;
   }
   .problem-section ul {
-    padding-top: 10px;
+    padding: 10px 0;
+    width: 50vw;
+    margin: 0 auto;
   }
   .problem-section ul li {
-    font-size: 20px;
-    padding: 1vw 11vw;
+    font-size: 24px;
     max-width: 960px;
     margin: 0 auto;
+  }
+  #list-style {
+    list-style-type: disc;
   }
   .problem-section {
     width: 100vw;
