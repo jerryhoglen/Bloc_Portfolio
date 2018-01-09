@@ -1348,8 +1348,11 @@ label {
     max-width: 960px;
     margin: 0 auto;
   }
+  .competitive-analysis-section h5 {
+    padding-bottom: 10px;
+  }
   .competitor-logos li {
-    padding: 30px 50px;
+    padding: 20px 50px 0 50px;
   }
   #features-list {
     padding: 0 12vw 0 12vw;
