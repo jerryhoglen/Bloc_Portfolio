@@ -1706,6 +1706,9 @@ label {
   .development-section img {
     padding: 40px 0;
   }
+  #cumulus-dev-img {
+    display: none;
+  }
   .development-button ul {
     margin-left: 23%;
   }
