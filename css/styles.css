@@ -592,6 +592,7 @@ label {
 
 #color-palette-img {
   width: 100vw;
+  padding-top: 5px;
 }
 
 .user-flows-section a {
@@ -1181,14 +1182,15 @@ label {
   }
   .user-flows-section img {
     width: 70vw;
-    max-width: 800px;
+    max-width: 960px;
   }
   .branding-section img {
     width: 100%;
     padding-left: 1vw;
   }
   #color-palette-img {
-    width: 900px;
+    width: 80vw;
+    max-width: 960px;
     display: block;
     padding: 0;
     padding-top: 15px;
@@ -1501,7 +1503,6 @@ label {
   }
   #color-palette-h5 {
     padding: 0;
-    padding-left: 2vw;
   }
   .cumulus-sketch {
     grid-column: 2;
@@ -1625,7 +1626,7 @@ label {
     padding: 10px 9vw 30px 9vw;
   }
   .visual-design-section h5 {
-    padding: 0 9vw;
+    padding: 0;
   }
 
   .user-testing-2-section {
