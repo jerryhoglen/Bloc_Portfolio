@@ -799,6 +799,10 @@ label {
   color: #FFFFFF;
 }
 
+#cumulus-web-gif {
+  display: none;
+}
+
 .conclusion-section img {
   display: block;
   margin: 0 auto;
@@ -1227,6 +1231,11 @@ label {
     width: 40vw;
     max-width: 500px;
   }
+  #cumulus-web-gif {
+    display: block;
+    width: 100vw;
+    max-width: 700px;
+  }
   .development-section img {
     width: 40vw;
     max-width: 500px;
@@ -1316,7 +1325,7 @@ label {
     padding-right: 9vw;
   }
   #solution-img-padding {
-    padding: 30px 0;
+    padding: 30px 0 0 0;
   }
   .process-section {
     width: 100vw;
@@ -1695,7 +1704,7 @@ label {
     margin: 0 auto;
   }
   .development-section img {
-    padding: 30px 0;
+    padding: 40px 0;
   }
   .development-button ul {
     margin-left: 23%;
