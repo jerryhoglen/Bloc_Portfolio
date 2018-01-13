@@ -992,9 +992,12 @@ label {
     width: 20vw;
     max-width: 300px;
     max-height: 330px;
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 4;
     grid-row: 1;
     margin-left: 2vw;
+  }
+  .profile-img img {
+    max-width: 20vw;
   }
   .profile-header {
     grid-column: 4 / span 8;
