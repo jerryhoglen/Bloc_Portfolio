@@ -60,12 +60,11 @@ a:hover {
   color: red;
 }
 
-/* Skew Forward */
 .hvr-move-right {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: translateX(0px);
-  transform: translateX(0px);
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
   box-shadow: 0 0 1px transparent;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
@@ -75,8 +74,8 @@ a:hover {
   transform-origin: 0 100%;
 }
 .hvr-move-right:hover, .hvr-move-right:focus, .hvr-move-right:active {
-  -webkit-transform: translateX(50px);
-  transform: translateX(50px);
+  -webkit-transform: translateY(50px);
+  transform: translateY(50px);
 }
 
 .hvr-move-up {
