@@ -60,6 +60,10 @@ a:hover {
   color: red;
 }
 
+/******
+Hover animations
+*******/
+
 .hvr-move-right {
   display: inline-block;
   vertical-align: middle;
@@ -74,26 +78,18 @@ a:hover {
   transform-origin: 0 100%;
 }
 .hover-animation:hover h5, .hover-animation:focus h5, .hover-animation:active h5 {
-  -webkit-transform: translateY(-50px);
-  transform: translateY(-50px);
+  -webkit-transform: translateX(25px);
+  transform: translateX(25px);
 }
 
-.hvr-move-up {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateX(0px);
-  transform: translateX(0px);
-  box-shadow: 0 0 1px transparent;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-}
+.hvr-move-up { display: inline-block; vertical-align: middle; -webkit-transform:
+translateX(0px); transform: translateX(0px); box-shadow: 0 0 1px transparent;
+-webkit-transition-duration: 0.5s; transition-duration: 0.5s;
+-webkit-transition-property: transform; transition-property: transform;
+-webkit-transform-origin: 0 100%; transform-origin: 0 100%; }
+
 .hover-animation:hover img, .hover-animation:focus img, .hover-animation:active img {
-  -webkit-transform: translateX(50px);
-  transform: translateX(50px);
+  -webkit-transform: translateY(-50px); transform: translateY(-50px);
 }
 
 .btn {
@@ -987,15 +983,13 @@ label {
     display: flex;
   }
   .profile-img {
-    width: 20vw;
-    max-width: 300px;
-    max-height: 330px;
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 2;
     grid-row: 1;
     margin-left: 2vw;
   }
   .profile-img img {
-    max-width: 20vw;
+    max-width: 300px;
+    max-height: 325px;
   }
   .profile-header {
     grid-column: 4 / span 8;
