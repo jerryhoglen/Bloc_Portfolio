@@ -60,38 +60,6 @@ a:hover {
   color: red;
 }
 
-/******
-Hover animations
-*******/
-
-.hvr-move-right {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateY(0px);
-  transform: translateY(0px);
-  box-shadow: 0 0 1px transparent;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-}
-.hover-animation:hover h5, .hover-animation:focus h5, .hover-animation:active h5 {
-  -webkit-transform: translateX(25px);
-  transform: translateX(25px);
-}
-
-.hvr-move-up { display: inline-block; vertical-align: middle; -webkit-transform:
-translateX(0px); transform: translateX(0px); box-shadow: 0 0 1px transparent;
--webkit-transition-duration: 0.5s; transition-duration: 0.5s;
--webkit-transition-property: transform; transition-property: transform;
--webkit-transform-origin: 0 100%; transform-origin: 0 100%; }
-
-.hover-animation:hover img, .hover-animation:focus img, .hover-animation:active img {
-  -webkit-transform: translateY(-50px); transform: translateY(-50px);
-}
-
 .btn {
   font-family: Arial;
   color: #ffffff;
@@ -542,6 +510,7 @@ label {
   padding: 0 4vw;
   margin: 0 auto;
 }
+
 .competitor-logos {
   display: flex;
   justify-content: center;
@@ -924,6 +893,43 @@ label {
   nav {
     padding: 30px 0;
   }
+  /******
+  Hover animations
+  *******/
+  .hvr-move-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+  .hover-animation:hover h5, .hover-animation:focus h5, .hover-animation:active h5 {
+    -webkit-transform: translateX(25px);
+    transform: translateX(25px);
+  }
+  .hvr-move-up {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+  .hover-animation:hover img, .hover-animation:focus img, .hover-animation:active img {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+  }
   footer {
     padding: 75px 0 30px 0;
   }
@@ -1165,11 +1171,11 @@ label {
     CASE STUDY
     ***************/
   #list-style {
-      list-style-type: disc;
-    }
+    list-style-type: disc;
+  }
   .cumulus-container p {
     font-size: 22px;
-   }
+  }
   .cumulus-header p {
     padding: 10px 9vw 0 9vw;
   }
@@ -1281,7 +1287,6 @@ label {
   }
   .cumulus-container p {
     padding: 0 9vw;
-
   }
   #summary-padding {
     padding-top: 50px;
@@ -1504,7 +1509,7 @@ label {
     width: auto;
     margin-left: 2vw;
   }
-  .bitter-font-styling  {
+  .bitter-font-styling {
     padding: 1vw;
   }
   .raleway-font-headings {
@@ -1664,11 +1669,9 @@ label {
   .visual-design-section h5 {
     padding: 0;
   }
-
   #design-h5 {
     padding: 0 9vw;
   }
-
   .user-testing-2-section {
     width: 100vw;
     position: relative;
