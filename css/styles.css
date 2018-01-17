@@ -78,8 +78,14 @@ a:hover {
 }
 
 .cumulus-section img {
-  height: 40vw;
-  width: 55vw;
+  height: 50vw;
+  width: 65w;
+}
+
+#cumulus-homepage-img {
+  width: 50vw;
+  margin: 0 auto;
+  padding: 10px 0 10px 4vw;
 }
 
 .blocjams-section img {
@@ -108,7 +114,7 @@ a:hover {
 }
 
 .work-padding {
-  padding: 3vw 0 2vw 0;
+  padding: 10vw 0 6vw 0;
 }
 
 /* Content Styling */
@@ -204,8 +210,12 @@ footer ul li a:active {
   padding: 2vw 0;
 }
 
+.profile-header h1 {
+  font-size: 2.5rem;
+}
+
 .profile-paragraph h3 {
-  padding: 0 4vw;
+  padding: 0 4vw 30px 4vw;
 }
 
 .featured-work {
@@ -213,8 +223,24 @@ footer ul li a:active {
   text-align: center;
 }
 
+.featured-work h2 {
+  font-size: 1.75rem;
+}
+
 .cumulus-section {
   background-color: #81EA97;
+}
+
+.cumulus-section-description {
+  border-bottom: 10px solid #dadada;
+}
+
+.cumulus-section-description h5 {
+  padding: 10px 4vw;
+}
+
+.cumulus-section-description p {
+  padding: 0 4vw 10px 4vw;
 }
 
 .blocjams-section {
@@ -927,8 +953,8 @@ label {
     transform-origin: 0 100%;
   }
   .hover-animation:hover img, .hover-animation:focus img, .hover-animation:active img {
-    -webkit-transform: translateY(-50px);
-    transform: translateY(-50px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
   }
   footer {
     padding: 75px 0 30px 0;
@@ -1030,6 +1056,23 @@ label {
     max-width: 400px;
     max-height: 200px;
   }
+  #cumulus-homepage-img {
+    width: 22vw;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  .cumulus-section-description {
+    grid-column: 7 / span 8;
+    grid-row: 2;
+    border-bottom: 10px solid #dadada;
+  }
+  .cumulus-section-description h5 {
+    padding: 10px 0;
+    font-size: 1.25rem;
+  }
+  .cumulus-section-description p {
+    padding: 0;
+  }
   .blocjams-section {
     grid-column: 7 / span 4;
     grid-row: 3;
@@ -1055,14 +1098,14 @@ label {
     grid-template-rows: 1fr;
   }
   .cumulus-section img {
-    height: 20vw;
-    width: 28vw;
+    height: 55vw;
+    width: 45vw;
     max-width: 348px;
     max-height: 248px;
     grid-column: 2;
     grid-row: 1;
-    margin-left: 40px;
-    margin-top: -20px;
+    margin-left: 80px;
+    margin-top: -40px;
   }
   .cumulus-section h5 {
     padding: 1vw 0;
@@ -1186,6 +1229,7 @@ label {
   .solution-section img {
     width: 40vw;
     max-width: 500px;
+    margin-bottom: 30px;
   }
   .process-section img {
     width: 70vw;
@@ -1362,7 +1406,11 @@ label {
   .process-section h5 {
     max-width: 960px;
     margin: 0 auto;
+    margin-bottom: 40px;
     padding-bottom: 30px;
+    border-bottom: 10px solid #dadada;
+    text-align: center;
+    font-size: 2.5rem;
   }
   .user-research-section {
     width: 100vw;
