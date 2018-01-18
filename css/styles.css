@@ -260,6 +260,17 @@ footer ul li a:active {
   padding: 5vw 20px;
 }
 
+#kennedy {
+  width: 60vw;
+  display: block;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.about-spacing {
+  padding-top: 30px;
+}
+
 .about-padding {
   padding: 0 0 20px 0;
 }
@@ -896,6 +907,9 @@ label {
   .about-padding {
     padding: 0 0 2vw 0;
   }
+  #kennedy {
+    width: 40vw;
+  }
   .bio-summary {
     grid-column: 1 / span 2;
     grid-row: 2;
@@ -1150,6 +1164,11 @@ label {
     max-width: 960px;
     margin: 0 auto;
     padding: 0;
+  }
+  #kennedy {
+    width: 20vw;
+    display: block;
+    margin: 0 auto;
   }
   .bio-summary {
     background-color: #F0F1F4;
