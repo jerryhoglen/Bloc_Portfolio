@@ -219,7 +219,7 @@ footer ul li a:active {
 }
 
 .featured-work {
-  padding: 5vw 0 0 0;
+  padding: 5vw 0 10px 0;
   text-align: center;
 }
 
@@ -839,6 +839,14 @@ label {
     height: 30vw;
     width: 40vw;
   }
+  .cumulus-section-description {
+    border-bottom: 1px solid #fff;
+  }
+  #cumulus-homepage-img {
+    padding: 0;
+    width: 40vw;
+    padding: 10px 4vw;
+  }
   .blocjams-section img {
     height: 22vw;
     width: 38vw;
@@ -919,43 +927,30 @@ label {
   nav {
     padding: 30px 0;
   }
-  /******
-  Hover animations
-  *******/
-  .hvr-move-right {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-    box-shadow: 0 0 1px transparent;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transform-origin: 0 100%;
-    transform-origin: 0 100%;
+
+  /***********
+  Hover Animation
+  ***********/
+
+  .hover-animation:hover .box {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
   }
-  .hover-animation:hover h5, .hover-animation:focus h5, .hover-animation:active h5 {
-    -webkit-transform: translateX(25px);
-    transform: translateX(25px);
-  }
-  .hvr-move-up {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
-    box-shadow: 0 0 1px transparent;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transform-origin: 0 100%;
-    transform-origin: 0 100%;
-  }
-  .hover-animation:hover img, .hover-animation:focus img, .hover-animation:active img {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
+
+  .bounce {
+    animation-name: bounce;
+    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+@keyframes bounce {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-100px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}
   footer {
     padding: 75px 0 30px 0;
   }
@@ -1051,10 +1046,8 @@ label {
   .cumulus-section {
     grid-column: 1 / span 4;
     grid-row: 2;
-    height: 15vw;
     width: 32vw;
     max-width: 400px;
-    max-height: 200px;
   }
   #cumulus-homepage-img {
     width: 22vw;
@@ -1104,8 +1097,8 @@ label {
     max-height: 248px;
     grid-column: 2;
     grid-row: 1;
-    margin-left: 80px;
-    margin-top: -40px;
+    margin-left: 70px;
+    margin-top: -20px;
   }
   .cumulus-section h5 {
     padding: 1vw 0;
