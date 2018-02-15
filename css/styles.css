@@ -88,16 +88,6 @@ a:hover {
   padding: 10px 0 10px 4vw;
 }
 
-.blocjams-section img {
-  height: 32vw;
-  width: 56vw;
-}
-
-.responsive-site-section img {
-  height: 34vw;
-  width: 46vw;
-}
-
 .cumulus-section a {
   display: block;
   text-align: center;
@@ -869,16 +859,10 @@ label {
     width: 40vw;
     padding: 10px 4vw;
   }
-  .blocjams-section img {
-    height: 22vw;
-    width: 38vw;
-  }
-  .bloc-jams-padding {
-    padding-top: 8vw;
-  }
-  .responsive-site-section img {
-    height: 24vw;
-    width: 30vw;
+  #two-pines-homepage-img {
+    width: 40vw;
+    padding: 0;
+    padding: 10px 4vw;
   }
   .header {
     display: grid;
@@ -1061,18 +1045,47 @@ label {
     grid-column-gap: 20px;
   }
   .featured-work {
-    grid-column: 1 / 13;
+    grid-column: 1 / span 13;
     padding-bottom: 5vw;
   }
   .mobile-width-padding {
     padding: 0;
     text-align: left;
   }
-  .cumulus-section {
+  .two-pines-section {
     grid-column: 1 / span 4;
     grid-row: 2;
     width: 32vw;
     max-width: 400px;
+    background-color: #1B3153;
+    margin-bottom: 100px;
+  }
+  #two-pines-homepage-img {
+    width: 10vw;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+  .two-pines-section img {
+    width: 27vw;
+    margin-left: 50px;
+    margin-top: -15px;
+  }
+  .two-pines-section-description {
+    grid-column: 7 / span 8;
+    grid-row: 2;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 100px;
+  }
+  .cumulus-section {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    width: 32vw;
+    max-width: 400px;
+  }
+  .cumulus-section-description {
+    grid-column: 7 / span 8;
+    grid-row: 3;
+    border-bottom: 1px solid #FFF;
   }
   #cumulus-homepage-img {
     width: 22vw;
@@ -1081,7 +1094,7 @@ label {
   }
   .cumulus-section-description {
     grid-column: 7 / span 8;
-    grid-row: 2;
+    grid-row: 3;
     border-bottom: 1px solid #FFF;
   }
   .cumulus-section-description h5 {
@@ -1090,25 +1103,6 @@ label {
   }
   .cumulus-section-description p {
     padding: 0;
-  }
-  .blocjams-section {
-    grid-column: 7 / span 4;
-    grid-row: 3;
-    width: 32vw;
-    height: 15vw;
-    max-width: 400px;
-    max-height: 200px;
-    margin-top: 4vw;
-    margin-left: 3vw;
-  }
-  .responsive-site-section {
-    grid-column: 1 / span 5;
-    grid-row: 4;
-    width: 32vw;
-    height: 15vw;
-    max-width: 400px;
-    max-height: 200px;
-    margin-top: 4vw;
   }
   .grid-2 {
     display: grid;
@@ -1128,40 +1122,7 @@ label {
   .cumulus-section h5 {
     padding: 1vw 0;
     grid-column: 1;
-    grid-row: 1;
-    margin-left: -1vw;
-  }
-  .blocjams-section img {
-    height: 16vw;
-    width: 28vw;
-    max-width: 348px;
-    max-height: 199px;
-    grid-column: 2;
-    grid-row: 1;
-    margin-left: 100px;
-    margin-top: -220px;
-  }
-  .blocjams-section h5 {
-    padding: 1vw 0;
-    grid-column: 1;
-    grid-row: 1;
-    margin-left: -1vw;
-  }
-  .responsive-site-section img {
-    height: 16vw;
-    width: 22vw;
-    max-width: 273px;
-    max-height: 199px;
-    grid-column: 2;
-    grid-row: 1;
-    margin-left: 100px;
-    margin-top: -225px;
-  }
-  .responsive-site-section h5 {
-    color: #333;
-    padding: 1vw 0;
-    grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     margin-left: -1vw;
   }
   .work-padding {
