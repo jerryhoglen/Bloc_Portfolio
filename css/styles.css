@@ -160,6 +160,17 @@ nav li {
   border-bottom: 1px solid #333333;
 }
 
+
+.project-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.project-nav li {
+  list-style-type: none;
+}
+
 footer {
   max-width: 960px;
   margin: 0 auto;
