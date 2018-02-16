@@ -994,7 +994,8 @@ label {
     font-size: 1.5rem;
   }
   .featured-work h2 {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
+    padding: 5px 10px;
   }
   h4 {
     font-size: .65rem;
@@ -1046,7 +1047,7 @@ label {
   }
   .featured-work {
     grid-column: 1 / span 13;
-    padding-bottom: 5vw;
+    margin: 20px 0 10px 0;
   }
   .mobile-width-padding {
     padding: 0;
@@ -1057,35 +1058,30 @@ label {
     grid-row: 2;
     width: 32vw;
     max-width: 400px;
-    background-color: #1B3153;
+    background-color: #F0F1F4;
     margin-bottom: 100px;
   }
   #two-pines-homepage-img {
-    width: 10vw;
+    width: 12vw;
     margin: 0 auto;
     padding: 10px 0;
   }
   .two-pines-section img {
-    width: 27vw;
-    margin-left: 50px;
-    margin-top: -15px;
+    width: 30vw;
+    margin-left: 20px;
+    margin-top: 15px;
   }
   .two-pines-section-description {
-    grid-column: 7 / span 8;
+    grid-column: 7 / span 7;
     grid-row: 2;
     border-bottom: 1px solid #FFF;
     margin-bottom: 100px;
   }
   .cumulus-section {
-    grid-column: 1 / span 4;
+    grid-column: 8 / span 4;
     grid-row: 3;
     width: 32vw;
     max-width: 400px;
-  }
-  .cumulus-section-description {
-    grid-column: 7 / span 8;
-    grid-row: 3;
-    border-bottom: 1px solid #FFF;
   }
   #cumulus-homepage-img {
     width: 22vw;
@@ -1093,13 +1089,20 @@ label {
     padding: 10px 0;
   }
   .cumulus-section-description {
-    grid-column: 7 / span 8;
+    grid-column: 1 / span 7;
     grid-row: 3;
     border-bottom: 1px solid #FFF;
   }
   .cumulus-section-description h5 {
     padding: 10px 0;
     font-size: 1.25rem;
+  }
+  .two-pines-section-description h5 {
+    padding: 10px 0;
+    font-size: 1.25rem;
+  }
+  .two-pines-section-description p {
+    padding: 0;
   }
   .cumulus-section-description p {
     padding: 0;
