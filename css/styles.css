@@ -1081,7 +1081,7 @@ label {
     text-align: left;
   }
   .two-pines-section {
-    grid-column: 1 / span 4;
+    grid-column: 1 / span 3;
     grid-row: 2;
     width: 32vw;
     max-width: 400px;
@@ -1099,7 +1099,7 @@ label {
     margin-top: 15px;
   }
   .two-pines-section-description {
-    grid-column: 7 / span 7;
+    grid-column: 7 / span 8;
     grid-row: 2;
     border-bottom: 1px solid #FFF;
     margin-bottom: 100px;
