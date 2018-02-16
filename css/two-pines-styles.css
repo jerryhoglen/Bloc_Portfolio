@@ -3,10 +3,11 @@
   CUMULUS CASE STUDY
   ***************/
 
+
 .project-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding: 20px;
 }
 
 .project-nav li {
@@ -59,7 +60,7 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 40px 0 10px 0;
+  padding: 20px 0 10px 0;
 }
 
 .problem-section {
@@ -469,6 +470,11 @@
   /****************
     CASE STUDY
     ***************/
+
+  .project-nav {
+    padding: 0;
+    padding-top: 50px;
+  }
   #list-style {
     list-style-type: disc;
   }

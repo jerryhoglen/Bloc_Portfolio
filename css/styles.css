@@ -176,7 +176,6 @@ nav li {
   border-bottom: 1px solid #333333;
 }
 
-
 .project-nav {
   display: flex;
   justify-content: space-between;
@@ -471,6 +470,11 @@ label {
   color: #ffffff
 }
 
+.project-nav {
+  padding: 0;
+  padding: 20px 4vw;
+}
+
 #paragraph-padding {
   padding-top: 10px;
 }
@@ -498,6 +502,7 @@ label {
   display: block;
   margin: 0 auto;
   text-align: center;
+  padding: 20px 0;
 }
 
 .problem-section {
@@ -874,11 +879,21 @@ label {
   .wrapper p {
     font-size: 1.25rem;
   }
+  .two-pines-section-description {
+    padding-top: 10px;
+    border-bottom: 2px solid #FFFFFF;
+  }
+  .two-pines-section img {
+    width: 50vw;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
   .cumulus-section img {
     height: 30vw;
     width: 40vw;
   }
   .cumulus-section-description {
+    padding-top: 20px;
     border-bottom: 1px solid #fff;
   }
   #cumulus-homepage-img {
@@ -896,7 +911,7 @@ label {
     grid-template-columns: 1fr;
   }
   .header h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-left: 2vw;
   }
   .profile-paragraph {
@@ -918,7 +933,7 @@ label {
     padding: 4vw 0 3vw 0;
   }
   .featured-work h2 {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
   /****************
     Bio Page
@@ -963,30 +978,41 @@ label {
   nav {
     padding: 30px 0;
   }
-
   /***********
   Hover Animation
   ***********/
-
   .hover-animation:hover .box {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     transform-origin: bottom;
   }
-
   .bounce {
     animation-name: bounce;
     animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
-}
-@keyframes bounce {
-    0%   { transform: scale(1,1)      translateY(0); }
-    10%  { transform: scale(1.1,.9)   translateY(0); }
-    30%  { transform: scale(.9,1.1)   translateY(-100px); }
-    50%  { transform: scale(1.05,.95) translateY(0); }
-    57%  { transform: scale(1,1)      translateY(-7px); }
-    64%  { transform: scale(1,1)      translateY(0); }
-    100% { transform: scale(1,1)      translateY(0); }
-}
+  }
+  @keyframes bounce {
+    0% {
+      transform: scale(1, 1) translateY(0);
+    }
+    10% {
+      transform: scale(1.1, .9) translateY(0);
+    }
+    30% {
+      transform: scale(.9, 1.1) translateY(-100px);
+    }
+    50% {
+      transform: scale(1.05, .95) translateY(0);
+    }
+    57% {
+      transform: scale(1, 1) translateY(-7px);
+    }
+    64% {
+      transform: scale(1, 1) translateY(0);
+    }
+    100% {
+      transform: scale(1, 1) translateY(0);
+    }
+  }
   footer {
     padding: 75px 0 30px 0;
   }
@@ -1094,9 +1120,12 @@ label {
     padding: 10px 0;
   }
   .two-pines-section img {
-    width: 30vw;
-    margin-left: 20px;
+    width: 60vw;
+    margin-left: 35px;
     margin-top: 15px;
+    max-width: 420px;
+    max-height: 320px;
+    padding: 0;
   }
   .two-pines-section-description {
     grid-column: 7 / span 8;
@@ -1142,8 +1171,8 @@ label {
   .cumulus-section img {
     height: 55vw;
     width: 45vw;
-    max-width: 368px;
-    max-height: 278px;
+    max-width: 400px;
+    max-height: 310px;
     grid-column: 2;
     grid-row: 1;
     margin-left: 70px;
@@ -1229,6 +1258,10 @@ label {
     ***************/
   #list-style {
     list-style-type: disc;
+  }
+  .project-nav {
+    padding: 0;
+    padding: 50px 0 0 0;
   }
   .cumulus-container p {
     font-size: 22px;
@@ -1324,7 +1357,7 @@ label {
     max-width: 500px;
   }
   .conclusion-section img {
-    max-width: 40vw;
+    max-width: 10vw;
     padding: 30px 0 0 0;
   }
   .cumulus-container a {
