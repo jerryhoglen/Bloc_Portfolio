@@ -77,6 +77,26 @@ a:hover {
   color: #ffffff
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #333333;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 10px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
 .cumulus-section img {
   width: 95vw;
 }

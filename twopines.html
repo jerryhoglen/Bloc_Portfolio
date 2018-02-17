@@ -29,6 +29,8 @@
     </div>
   </nav>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up fa-3x" aria-hidden="true"></i></button>
+
   <div class="cumulus-container">
     <div>
       <ul class="project-nav">
@@ -324,6 +326,30 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-112485964-1');
+  </script>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+  </script>
+  <script>
+    $(function() {
+      $("#myBtn").click(function(e) {
+        e.preventDefault();
+        $("html, body").animate({
+          "scrollTop": "0px"
+        }, 800);
+      })
+    });
   </script>
 </body>
 
