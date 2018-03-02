@@ -275,7 +275,7 @@ footer ul li a:active {
 
 .cumulus-section {
   margin-top: 20px;
-  background-color: #81EA97;
+  background-color: #c3f5cd;
 }
 
 .cumulus-section-description {
@@ -1001,37 +1001,47 @@ label {
   /***********
   Hover Animation
   ***********/
-  .hover-animation:hover .box {
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom;
+  .hvr-background:hover {
+    background-color: #c4c8d4;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
   }
-  .bounce {
-    animation-name: bounce;
-    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+  .hvr-rotate {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
   }
-  @keyframes bounce {
-    0% {
-      transform: scale(1, 1) translateY(0);
-    }
-    10% {
-      transform: scale(1.1, .9) translateY(0);
-    }
-    30% {
-      transform: scale(.9, 1.1) translateY(-100px);
-    }
-    50% {
-      transform: scale(1.05, .95) translateY(0);
-    }
-    57% {
-      transform: scale(1, 1) translateY(-7px);
-    }
-    64% {
-      transform: scale(1, 1) translateY(0);
-    }
-    100% {
-      transform: scale(1, 1) translateY(0);
-    }
+  .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+  }
+  .hvr-background-2:hover {
+    background-color: #81EA97;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  }
+  .hvr-rotate-2 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-rotate-2:hover, .hvr-rotate-2:focus, .hvr-rotate-2:active {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
   }
   footer {
     padding: 75px 0 30px 0;
