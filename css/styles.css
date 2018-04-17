@@ -1115,7 +1115,7 @@ label {
     max-width: 375px;
     max-height: 325px;
     border-radius: 2px;
-    opacity: .8;
+    opacity: .92;
   }
   .profile-header {
     grid-column: 4 / span 8;
