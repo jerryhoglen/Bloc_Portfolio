@@ -13,6 +13,10 @@ body {
   background-color: #fff;
 }
 
+.bloc {
+  color: #3232BE;
+}
+
 h1 {
   font-size: 1.5rem;
   font-weight: 500;
