@@ -1117,9 +1117,9 @@ label {
     border-radius: 2px;
   }
   .profile-header {
-    grid-column: 3 / span 8;
+    grid-column: 3 / span 12;
     grid-row: 1;
-    padding: 2.2vw 0 2.2vw 9vw;
+    padding: 2vw 0 2.2vw 9vw;
     z-index: 1000;
   }
   .profile-paragraph {
