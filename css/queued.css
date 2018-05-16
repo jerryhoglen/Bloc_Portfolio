@@ -1,0 +1,1067 @@
+
+/****************
+  CUMULUS CASE STUDY
+  ***************/
+
+
+.project-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.project-nav li {
+  list-style-type: none;
+}
+
+.btn {
+  font-family: "futura-pt", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  background: #EA4C89;
+  padding: 10px 5px 10px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 50vw;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background: #353955;
+  text-decoration: none;
+  color: #ffffff
+}
+
+#paragraph-padding {
+  padding-top: 10px;
+}
+
+.cumulus-container h5 {
+  padding: 30px 4vw 2vw 4vw;
+}
+
+.cumulus-container p {
+  padding: 0 4vw;
+}
+
+.section-padding-bottom {
+  padding-bottom: 30px;
+}
+
+.cumulus-container h6 {
+  font-size: 1.2em;
+  font-weight: normal;
+  padding: 0 4vw;
+}
+
+.cumulus-header img {
+  background-color: #181E2F;
+  width: 70vw;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 10px 0;
+}
+
+.problem-section {
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+
+#two-pines-problem {
+  background-color: #181E2F;
+}
+
+.problem-section p {
+  padding: 2vw 4vw 2vw 4vw;
+}
+
+#problem-list {
+  padding: 10px 10vw;
+}
+
+#problem-list li {
+  font-size: 1.3rem;
+  padding: 10px 0 0 0;
+}
+
+.problem-section ul li .bottom-padding {
+  padding-bottom: 30px;
+}
+
+.solution-section {
+  background-color: #F0F1F4;
+  padding-bottom: 30px;
+}
+
+#two-pines-solution {
+  background-color: #F0F1F4;
+}
+
+.solution-section img {
+  width: 92vw;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+.solution-section p {
+  padding-bottom: 5vw;
+}
+
+.solution-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#desktop-process-img {
+  display: none;
+}
+
+.process-section img {
+  width: 100vw;
+  padding: 4vw;
+}
+
+.process-section h5 {
+  padding-bottom: 10px;
+}
+
+#two-pines-research {
+  background-color: #181E2F;
+  color: #FFFFFF;
+}
+
+.user-research-section h1 {
+  padding: 0;
+  padding: 10px 4vw 0 4vw;
+  font-size: 2.2em;
+}
+
+.user-research-flex h6 {
+  padding: 0;
+  padding: 0 4vw;
+  margin: 0 auto;
+}
+
+.competitor-logos {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.competitor-logos li {
+  padding: 20px 20px 0 20px;
+}
+
+.competitive-analysis-section img {
+  width: 20vw;
+}
+
+#features-list {
+  padding: 0 10vw;
+}
+
+#features-list li {
+  font-size: 1.2rem;
+  list-style-type: disc;
+  padding: 5px 0;
+}
+
+.user-personas-section {
+  background-color: #5F81A3;
+  color: #FFFFFF;
+}
+
+#two-pines-personas {
+  background-color: #F0F1F4;
+  color: #333333;
+}
+
+.user-personas-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  width: 95vw;
+}
+
+#alex-img {
+  display: none;
+}
+
+#kaylie-img {
+  display: none;
+}
+
+.user-flows-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  width: 92vw;
+}
+
+#color-palette-img {
+  width: 92vw;
+  padding-top: 5px;
+}
+
+.user-flows-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.branding-section {
+  background-color: #F0F1F4;
+}
+
+.branding-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  padding: 20px 0 0 0;
+  width: 92vw;
+}
+
+#two-pines-logo-height {
+  width: 30vw;
+}
+
+.bitter-font-headings {
+  border: 2px solid #d8d8d8;
+  font-family: "ff-meta-web-pro";
+  display: block;
+  width: 36vw;
+  margin-left: 2vw;
+  padding: 1vw;
+}
+
+.bitter-font-styling {
+  font-style: normal;
+  padding: 0;
+  padding-left: 4vw;
+}
+
+#bitter-h3-example {
+  font-family: "ff-meta-web-pro";
+  padding: 1vw 4vw;
+  font-size: 1.75em;
+}
+
+.raleway-font-headings {
+  border: 2px solid #d8d8d8;
+  margin: 0 2vw;
+  font-family: "ff-tisa-web-pro";
+  font-size: 16pt;
+  padding: 1vw;
+}
+
+.example-paragraph {
+  border: 2px solid #d8d8d8;
+  margin: 0 2vw;
+  padding: 1vw;
+  margin-bottom: 5vw;
+}
+
+.example-paragraph h3 {
+  padding-bottom: 0;
+}
+
+.example-paragraph p {
+  font-family: "ff-tisa-web-pro";
+}
+
+.branding-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#packaging-img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.wireframing-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  width: 92vw;
+}
+
+.wireframing-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
+
+.balsamiq-dashboard-grid {
+  display: none;
+}
+
+.illustrator-wireframes-grid {
+  display: none;
+}
+
+.user-testing-section {
+  background-color: #3498D8;
+  color: #FFFFFF;
+}
+
+#two-pines-testing-section {
+  background-color:  #1B3153;
+  color: #FFFFFF;
+}
+
+.user-testing-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  width: 92vw;
+}
+
+#user-testing-h5-padding {
+  padding: 0;
+  padding: 0 4vw 2vw 4vw;
+}
+
+.user-testing-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
+
+.visual-design-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 10px;
+}
+
+
+.visual-design-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  width: 100vw;
+}
+
+.visual-design-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
+
+.user-testing-2-section {
+  background-color: #F0F1F4;
+  color: #333333;
+}
+
+.testing-paragraph {
+  padding-bottom: 5vw;
+}
+
+.user-testing-2-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+  margin-top: 5vw;
+}
+
+.user-testing-2-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5vw 0;
+  width: 92vw;
+}
+
+.prototyping-2-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  width: 92vw;
+}
+
+.prototyping-2-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
+
+.development-section {
+  background-color: #F0F1F4;
+}
+
+#two-pines-development {
+  background-color: #FFFFFF;
+}
+
+.development-section p {
+  padding: 0 4vw;
+}
+
+.development-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  width: 90vw;
+}
+
+.development-section a {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 60vw;
+}
+
+#testing-margin {
+  margin-bottom: 2vw;
+}
+
+.conclusion-section {
+  background-color: #5F81A3;
+  color: #FFFFFF;
+}
+#two-pines-conclusion {
+  background-color: #F0F1F4;
+  color: #333333;
+}
+
+#cumulus-web-gif {
+  display: none;
+}
+
+.conclusion-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4vw 0 1vw 0;
+  width: 25vw;
+}
+
+.conclusion-section p {
+  padding: 0 4vw;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+  /****************
+    CASE STUDY
+    ***************/
+
+  .project-nav {
+    padding: 0;
+    padding-top: 50px;
+  }
+  #list-style {
+    list-style-type: disc;
+  }
+  .cumulus-container p {
+    font-size: 22px;
+  }
+  .cumulus-header p {
+    padding: 10px 9vw 0 9vw;
+  }
+  .cumulus-header img {
+    width: 30vw;
+    max-width: 800px;
+  }
+  .solution-section img {
+    width: 40vw;
+    max-width: 500px;
+    margin-bottom: 30px;
+  }
+  .process-section img {
+    width: 70vw;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  #mobile-process-img {
+    display: none;
+  }
+  #desktop-process-img {
+    display: block;
+  }
+  .competitor-logos img {
+    width: 6vw;
+  }
+  .user-personas-section img {
+    width: 30vw;
+    max-width: 500px;
+  }
+  .user-flows-section img {
+    padding: 0;
+    padding: 30px 0;
+    width: 70vw;
+    max-width: 960px;
+  }
+  .branding-section img {
+    width: 70%;
+    margin-top: 30px;
+  }
+  #color-palette-img {
+    width: 50vw;
+    max-width: 960px;
+    display: block;
+    padding: 0;
+    padding-top: 15px;
+  }
+  .wireframing-section img {
+    padding: 0;
+    margin: 0;
+    width: 32vw;
+    max-width: 450px;
+  }
+  #two-pines-sketch-wireframe {
+    margin: 0 auto;
+  }
+  .user-testing-section img {
+    width: 40vw;
+    max-width: 500px;
+  }
+  .visual-design-section img {
+    width: 100%;
+    max-width: 960px;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .user-testing-2-section img {
+    width: 30vw;
+    padding: 40px 0 10px 0;
+  }
+  #navflow-img {
+    width: 50vw;
+    max-width: 500px;
+    border: 2px solid #333333;
+    padding: 0;
+    margin-top: 30px;
+  }
+  .prototyping-2-section img {
+    width: 40vw;
+    max-width: 500px;
+  }
+  #cumulus-web-gif {
+    display: block;
+    width: 100vw;
+    max-width: 700px;
+  }
+  .development-section img {
+    width: 40vw;
+    max-width: 500px;
+  }
+  .conclusion-section img {
+    max-width: 40vw;
+    padding: 30px 0 0 0;
+  }
+  .cumulus-container a {
+    width: 25vw;
+  }
+  .user-research-flex {
+    display: flex;
+  }
+  #cumulus-header-padding {
+    padding: 3vw 0 4vw 0;
+  }
+  .section-desktop-padding {
+    padding: 4vw 0 4vw 0;
+  }
+  .cumulus-container h5 {
+    font-size: 20px;
+    padding: 0vw 9vw 0vw 9vw;
+  }
+  .cumulus-container p {
+    padding: 0 9vw;
+  }
+  #summary-padding {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  .cumulus-container h6 {
+    padding: 0 2.75vw;
+    font-size: 1.3em;
+  }
+  .problem-section ul {
+    font-size: 24px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  #list-style {
+    list-style-type: disc;
+  }
+  .problem-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .problem-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .problem-section p {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 9vw 0 9vw;
+  }
+  #problem-list {
+    padding: 10px 12vw 0 12vw;
+  }
+  #problem-list li {
+    font-size: 24px;
+    padding: 10px 0 0 0;
+  }
+  .solution-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .solution-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .solution-section p {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 9vw;
+    padding-right: 9vw;
+  }
+  #solution-img-padding {
+    padding: 30px 0 0 0;
+  }
+  .process-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .process-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 10px solid #dadada;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .user-research-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .user-research-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .user-research-section h1 {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 3em;
+  }
+  .user-research-flex {
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .user-research-flex h6 {
+    margin: 0 auto;
+  }
+  .competitive-analysis-section h5 {
+    padding-bottom: 10px;
+  }
+  .competitor-logos li {
+    padding: 20px 50px 0 50px;
+  }
+  #features-list {
+    padding: 0 12vw 0 12vw;
+  }
+  #features-list li {
+    font-size: 22px;
+    padding: 10px 0 0 0;
+  }
+  #paragraph-padding {
+    padding: 20px 9vw 0 9vw;
+  }
+  .user-personas-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .user-personas-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .user-personas-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .personas-grid {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #alex-img {
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    width: 35vw;
+  }
+  #john-img {
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    width: 40vw;
+    margin-top: -2vw;
+    z-index: 1000;
+  }
+  #kaylie-img {
+    display: grid;
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    width: 35vw;
+  }
+  .user-flows-section p {
+    padding-top: 10px;
+  }
+  #userflow-img-desktop {
+    display: grid;
+  }
+  .branding-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .branding-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .branding-section p {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  #branding-section-h5-padding {
+    padding: 50px 1vw 10px 1vw;
+  }
+  #branding-paragraph {
+    padding: 0;
+    padding: 0 1vw;
+  }
+  #example-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #branding-body {
+    display: grid;
+    grid-template-columns: 480px 480px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .typography-grid h5 {
+    padding-top: 30px;
+  }
+  .bitter-header-grid h5 {
+    padding-bottom: 20px;
+  }
+  .branding-intro {
+    grid-column: 1 / span 2;
+  }
+  .bitter-header-grid h5 {
+    padding: 0;
+    padding: 30px 2vw 10px 2vw;
+  }
+  .bitter-font-headings {
+    width: auto;
+    margin-left: 2vw;
+  }
+  .bitter-font-styling {
+    padding: 1vw;
+  }
+  .raleway-font-headings {
+    padding: 0;
+  }
+  .raleway-paragraph-grid h5 {
+    padding: 0;
+    padding: 30px 2vw 10px 2vw;
+  }
+  .example-paragraph-grid h5 {
+    padding: 0;
+    padding: 30px 2vw 10px 2vw;
+  }
+  #raleway-desktop-padding {
+    padding: 1vw;
+  }
+  #bitter-h3-example {
+    padding: 0;
+    font-size: 1.6em;
+  }
+  #bitter-p-desktop-padding {
+    padding: 0;
+    padding-top: 10px;
+  }
+  #example-paragraph-desktop-padding {
+    margin-bottom: 30px;
+  }
+  #color-palette-img {
+    display: block;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  #color-palette-h5 {
+    padding: 0;
+  }
+  .cumulus-sketch {
+    grid-column: 2;
+  }
+  .cumulus-sketch-p {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .cumulus-logo-illustrator {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .cumulus-logo-illustrator p {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .final-logo {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .final-logo p {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .two-pines-final-logo {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  #two-pines-logo-height {
+    width: 30%;
+  }
+  .two-pines-final-logo p {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  .color-palette-grid {
+    grid-column: 1 / span 2;
+    grid-row: 6;
+    padding-top: 50px;
+  }
+  .typography-grid {
+    grid-column: 1 / span 2;
+    grid-row: 7;
+  }
+  .bitter-header-grid {
+    grid-column: 1;
+    grid-row: 8;
+  }
+  .raleway-paragraph-grid {
+    grid-column: 2;
+    grid-row: 8;
+  }
+  .example-paragraph-grid {
+    grid-column: 1 / span 2;
+    grid-row: 9;
+  }
+  .packaging-image-1 {
+    grid-column: 1 / span 2;
+    grid-row: 10;
+    padding: 30px 0;
+  }
+  #packaging-img {
+    width: 100%;
+  }
+  .btn-grid {
+    grid-column: 1 / span 2;
+    grid-row: 11;
+  }
+  .wireframing-section {
+    display: grid;
+    grid-template-columns: 480px 480px;
+  }
+  .wireframing-section p {
+    padding-top: 10px;
+  }
+  #wireframing-section-h5-padding {
+    padding: 0;
+    padding: 30px 0;
+  }
+  .wireframing-intro-grid {
+    grid-column: 1 / span 2;
+  }
+  .balsamiq-homepage-grid {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    padding-bottom: 30px;
+  }
+  .illustrator-homepage-grid {
+    grid-column: 1;
+    grid-row: 5;
+    padding-bottom: 30px;
+  }
+  .illustrator-wireframes-grid {
+    display: grid;
+    grid-column: 2;
+    grid-row: 5;
+  }
+  .visual-design-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+  .visual-design-intro {
+    grid-column: 1 / span 2;
+  }
+  .visual-design-btn {
+    grid-column: 1 / span 2;
+  }
+  .visual-design-section p {
+    padding: 10px 9vw 30px 9vw;
+  }
+  .visual-design-section h5 {
+    padding: 0;
+  }
+  #design-h5 {
+    padding: 0 9vw;
+  }
+  .user-testing-2-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .user-testing-2-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  .user-testing-2-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  #user-testing-2-padding {
+    padding-top: 20px;
+  }
+  #testing-desktop-margin {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .add-button-test {
+    margin: 0 auto;
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .add-button-test img {
+    padding: 50px 20px 20px 20px;
+    width: 35vw;
+    max-width: 500px;
+  }
+  .add-button-1 {
+    grid-column: 1;
+  }
+  .add-button-2 {
+    grid-column: 2;
+  }
+  .prototyping-2-section h5 {
+    padding-bottom: 10px;
+  }
+  .prototyping-2-section img {
+    padding: 30px 0;
+  }
+  .development-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .development-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  .development-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .development-section img {
+    padding: 40px 0;
+  }
+  #cumulus-dev-img {
+    display: none;
+  }
+  .development-button ul {
+    margin-left: 23%;
+  }
+  .development-button li {
+    display: inline-flex;
+    padding: 0 10px;
+  }
+  #testing-margin {
+    margin: 0;
+  }
+  .conclusion-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .conclusion-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  .conclusion-section p {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}

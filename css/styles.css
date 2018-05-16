@@ -102,6 +102,10 @@ a:hover {
   background-color: #555;
 }
 
+.queued-section {
+  background-color: #ef7aa7;
+}
+
 .cumulus-section img {
   width: 95vw;
 }
@@ -1012,6 +1016,12 @@ label {
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
   }
+  .hvr-background-1:hover {
+    background-color: #EA4C89;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+  }
   .hvr-rotate {
     display: inline-block;
     vertical-align: middle;
@@ -1143,12 +1153,37 @@ label {
     padding: 0;
     text-align: left;
   }
-  .two-pines-section {
+  .queued-section {
     grid-column: 1 / span 3;
     grid-row: 2;
     width: 32vw;
     max-width: 400px;
-    background-color: #F0F1F4;
+    margin-bottom: 100px;
+  }
+  #queued-homepage-img {
+    width: 14vw;
+    margin: 0 auto;
+    padding: 30px 0 10px 0;
+  }
+  .queued-section img {
+    width: 27vw;
+    margin-left: 60px;
+    margin-top: 50px;
+    max-width: 400px;
+    max-height: 310px;
+    padding: 0;
+  }
+  .queued-section-description {
+    grid-column: 8 / span 8;
+    grid-row: 2;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 100px;
+  }
+  .two-pines-section {
+    grid-column: 8 / span 4;
+    grid-row: 3;
+    width: 32vw;
+    max-width: 400px;
     margin-bottom: 100px;
   }
   #two-pines-homepage-img {
@@ -1165,14 +1200,14 @@ label {
     padding: 0;
   }
   .two-pines-section-description {
-    grid-column: 7 / span 8;
-    grid-row: 2;
+    grid-column: 1 / span 6;
+    grid-row: 3;
     border-bottom: 1px solid #FFF;
     margin-bottom: 100px;
   }
   .cumulus-section {
-    grid-column: 8 / span 4;
-    grid-row: 3;
+    grid-column: 1 / span 3;
+    grid-row: 4;
     width: 32vw;
     max-width: 400px;
   }
@@ -1182,13 +1217,20 @@ label {
     padding: 10px 0;
   }
   .cumulus-section-description {
-    grid-column: 1 / span 7;
-    grid-row: 3;
+    grid-column: 8 / span 8;
+    grid-row: 4;
     border-bottom: 1px solid #FFF;
   }
   .cumulus-section-description h5 {
     padding: 10px 0;
     font-size: 1.25rem;
+  }
+  .queued-section-description h5 {
+    padding: 10px 0;
+    font-size: 1.25rem;
+  }
+  .queued-section-description p {
+    padding: 0;
   }
   .two-pines-section-description h5 {
     padding: 10px 0;
