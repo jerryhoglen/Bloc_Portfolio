@@ -734,7 +734,7 @@
     font-size: 1.2em;
     font-style: normal;
     padding: 0;
-    padding: 10px 5vw 20px 1vw;
+    padding: 10px 5vw 40px 1vw;
   }
   .user-personas-section h1 {
     font-size: 1.5em;
@@ -749,12 +749,13 @@
     font-size: 1.1em;
     font-style: normal;
     padding: 0;
-    padding: 20px 1vw 10px 1vw;
+    padding: 40px 1vw 10px 1vw;
   }
   .user-personas-section p {
     padding: 0;
     padding: 0 1vw;
     width: 36vw;
+    max-width: 475px;
   }
   .personas-grid {
     max-width: 960px;
