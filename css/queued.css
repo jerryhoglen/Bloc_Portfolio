@@ -181,7 +181,7 @@
   color: #333333;
 }
 
-.user-personas-section img {
+/** .user-personas-section img {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -195,7 +195,7 @@
 
 #kaylie-img {
   display: none;
-}
+} **/
 
 .user-flows-section img {
   display: block;
@@ -504,10 +504,6 @@
   .competitor-logos img {
     width: 6vw;
   }
-  .user-personas-section img {
-    width: 30vw;
-    max-width: 500px;
-  }
   .user-flows-section img {
     padding: 0;
     padding: 30px 0;
@@ -698,6 +694,9 @@
   .user-research-flex h6 {
     margin: 0 auto;
   }
+  .research-width {
+    width: 20vw;
+  }
   .competitive-analysis-section h5 {
     padding-bottom: 10px;
   }
@@ -714,6 +713,10 @@
   #paragraph-padding {
     padding: 20px 9vw 0 9vw;
   }
+  .user-personas-section img {
+    width: 40vw;
+    max-width: 450px;
+  }
   .user-personas-section {
     width: 100vw;
     position: relative;
@@ -722,14 +725,36 @@
     margin-left: -50vw;
     margin-right: -50vw;
   }
-  .user-personas-section h5 {
-    max-width: 960px;
-    margin: 0 auto;
-    padding-bottom: 30px;
+  .user-personas-section h2 {
+    font-size: 1.75em;
+    font-style: normal;
+    padding: 0 1vw;
+  }
+  .user-personas-section h3 {
+    font-size: 1.2em;
+    font-style: normal;
+    padding: 0;
+    padding: 10px 5vw 20px 1vw;
+  }
+  .user-personas-section h1 {
+    font-size: 1.5em;
+    font-style: normal;
+    padding: 0;
+    padding: 0 2vw 0 1vw;
+    margin-left: 2vw;
+    border-left: 2px solid #333;
+    line-height: 1.2em;
+  }
+  .user-personas-section h4 {
+    font-size: 1.1em;
+    font-style: normal;
+    padding: 0;
+    padding: 20px 1vw 10px 1vw;
   }
   .user-personas-section p {
-    max-width: 960px;
-    margin: 0 auto;
+    padding: 0;
+    padding: 0 1vw;
+    width: 36vw;
   }
   .personas-grid {
     max-width: 960px;
@@ -737,24 +762,17 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
-  #alex-img {
-    display: grid;
-    grid-column: 1 / span 2;
-    grid-row: 1;
-    width: 35vw;
-  }
-  #john-img {
-    grid-column: 2 / span 2;
-    grid-row: 1;
-    width: 40vw;
-    margin-top: -2vw;
-    z-index: 1000;
-  }
-  #kaylie-img {
+  .cheryl-img {
     display: grid;
     grid-column: 3 / span 2;
     grid-row: 1;
-    width: 35vw;
+  }
+  .mike-img {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  .persona-img {
+    height: 550px;
   }
   .user-flows-section p {
     padding-top: 10px;
