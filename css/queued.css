@@ -1,8 +1,6 @@
-
 /****************
   CUMULUS CASE STUDY
   ***************/
-
 
 .project-nav {
   display: flex;
@@ -28,7 +26,7 @@
 }
 
 .btn:hover {
-  background: #353955;
+  background: #808080;
   text-decoration: none;
   color: #ffffff
 }
@@ -62,6 +60,11 @@
   margin: 0 auto;
   text-align: center;
   padding: 20px 0 10px 0;
+}
+
+.queued-competitive-section {
+  background-color: #F0F1F4;
+  padding-bottom: 30px;
 }
 
 .problem-section {
@@ -180,22 +183,6 @@
   background-color: #F0F1F4;
   color: #333333;
 }
-
-/** .user-personas-section img {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px 0;
-  width: 95vw;
-}
-
-#alex-img {
-  display: none;
-}
-
-#kaylie-img {
-  display: none;
-} **/
 
 .user-flows-section img {
   display: block;
@@ -317,7 +304,7 @@
 }
 
 #two-pines-testing-section {
-  background-color:  #1B3153;
+  background-color: #1B3153;
   color: #FFFFFF;
 }
 
@@ -346,7 +333,6 @@
   grid-template-columns: 1fr;
   grid-column-gap: 10px;
 }
-
 
 .visual-design-section img {
   display: block;
@@ -434,13 +420,10 @@
   margin-bottom: 2vw;
 }
 
-.conclusion-section {
-  background-color: #5F81A3;
-  color: #FFFFFF;
-}
+
 #two-pines-conclusion {
-  background-color: #F0F1F4;
-  color: #333333;
+  background-color: #181E2F;
+  color: #FFFFFF;
 }
 
 #cumulus-web-gif {
@@ -459,13 +442,10 @@
   padding: 0 4vw;
 }
 
-
 @media only screen and (min-width: 992px) {
-
   /****************
     CASE STUDY
     ***************/
-
   .project-nav {
     padding: 0;
     padding-top: 50px;
@@ -484,9 +464,33 @@
     max-width: 800px;
   }
   .solution-section img {
-    width: 40vw;
+    width: 20vw;
     max-width: 500px;
     margin-bottom: 30px;
+  }
+  .queued-competitive-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .queued-competitive-section h5 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .queued-competitive-section p {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  .queued-competitive-section a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
   .process-section img {
     width: 70vw;
@@ -780,6 +784,12 @@
   }
   #userflow-img-desktop {
     display: grid;
+  }
+  #user-story-p {
+    padding-bottom: 30px;
+  }
+  #user-flows-h5 {
+    padding: 50px 0 10px 9vw;
   }
   .branding-section {
     width: 100vw;

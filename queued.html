@@ -41,7 +41,7 @@
     <div class="cumulus-header section-padding-bottom" id="cumulus-header-padding">
       <img src="images/queuedlogo.png" alt="cumulus header image" />
       <h5 id="summary-padding">SUMMARY</h5>
-      <p class="desktop-padding">Jane loves to have dinner parties and make playlists for the event. Her friends often complain about her taste in music, they always ask to her to play certain tracks or to "switch it up". They talk about the good old days when you could use a jukebox
+      <p id="queued-p">Jane loves to have dinner parties and make playlists for the event. Her friends often complain about her taste in music, they always ask to her to play certain tracks or to "switch it up". They talk about the good old days when you could use a jukebox
         and everyone could hear what they wanted to hear and get a turn. They think music applications are so complicated to use and none of them let your guests add to the queue but not anymore! This is just one example a frustration that led to the
         creation of Queued.</p>
     </div>
@@ -62,7 +62,7 @@
       <p class="desktop-padding">Queued is a music application that allows the host to create a party playlist and give the guests the party passcode. The host will choose either engaged mode which allows users to add songs and then like or dislike them. If a song is disliked more
         than it is liked before the current playing song ends then that song will me moved to the end of the queue. The second mode is classic mode and it functions just like a classic jukebox. If a song is added to the queue then it will be played in
         the order it was added. The host can determine how many songs a guest can add per hour and is the only one that can delete songs from the queue.</p>
-      <img src="images/queuedmockup.png" id="solution-img-padding" alt="cumulus gif example" />
+      <img src="images/engagedmockup.png" id="solution-img-padding" alt="cumulus gif example" />
       <a href="https://sketch.cloud/s/jVd3b/all/application-screens-visual-design-copy/main-menu/play" class="btn">View Prototype</a>
     </div>
 
@@ -70,6 +70,13 @@
       <h5>MY PROCESS</h5>
       <img src="images/queuedsmalldesignprocess.png" id="mobile-process-img" alt="design proces mobile" />
       <img src="images/queueddesignprocess.png" id="desktop-process-img" alt="design process" />
+    </div>
+
+    <div class="queued-competitive-section section-padding-bottom section-desktop-padding">
+      <h5>COMPETITIVE ANALYSIS</h5>
+      <p class="desktop-padding">The music application scene is built on many recognizable names like Spotify, Pandora, Apple Music, and Amazon Music services however, the largest companies all lack the ability to allow guests to queue music to one curated playlist at the same
+        time. There are 3 popular companies that are currently doing various versions of this but all lack either key features or clean and easy to user interfaces. Check out my full analysis to see how I identified a way to break into a competitive market.</p>
+      <a href="https://docs.google.com/document/d/1oTIQirNNDoU2J4nlVZh34aXsxw-Lqk5Ufb4GYtAXyM0/edit?usp=sharing" class="btn">View Analysis</a>
     </div>
 
     <div class="user-research-section section-padding-bottom section-desktop-padding" id="two-pines-research">
@@ -119,10 +126,15 @@
     </div>
 
     <div class="user-flows-section section-padding-bottom section-desktop-padding">
-      <h5>USER FLOWS</h5>
-      <p class="desktop-padding">Surveys were completed to determine the flow of the site. Since it was going to be a single page website we wanted to make sure that the flow from top to bottom followed what the user wants. We added the subscribe button at top, mid, and bottom
-        level to create a conversion point for our users. The user flow was created in sketch during the wireframing process and tested multiple times.</p>
-      <img src="images/twopinesuserflow.png" />
+      <h5>USER STORIES</h5>
+      <p class="desktop-padding" id="user-story-p">Once we identifed the opportunity for a new music application and had research to back it up user stories were created to highlight the main features of the product and determine an MVP. The user stories were then pulled into sketch and mapped to
+        user flows.</p>
+      <a href="https://drive.google.com/open?id=1LAtoZecouA2z1g-o6surJ5oSBMmm-iGB" class="btn btn-grid queued-btn">View User Stories</a>
+      <h5 id="user-flows-h5">USER FLOWS</h5>
+      <img src="images/queueduserflow.png" />
+      <h5 id="user-flows-h5">SITEMAP</h5>
+      <p class="desktop-padding" id="user-story-p">Once I had a mapped out user flow then I continued on in the process and built out a sitemap so I had a skeleton structure to begin creating wireframes and artboards. The application will have a host and guest path that the user's can take so the sitemap below represents those two paths broken into screens.</p>
+      <img src="images/queuedsitemap.png" />
     </div>
 
     <div class="branding-section section-padding-bottom section-desktop-padding">
@@ -185,12 +197,6 @@
             <h3 id="bitter-h3-example">This is a headline</h3>
             <p class="desktop-padding" id="bitter-p-desktop-padding">Even though computer hardware is central to almost everything we do, it’s easy lag behind in the advances made in hardware software. Desktops that are four or five years old, for example, obsolete.</p>
           </div>
-        </div>
-        <div class="packaging-image-1">
-          <h5>Packaging Design</h5>
-          <p class="desktop-padding">For this product packaging, design played an important role in the overall brand story. I really wanted the packaging to represent a feeling of rustic and man-made vibe. The packaging would be made from minimal elements and be eco-conscious.
-            The mockups were made in Adobe Photoshop.</p>
-          <img src="images/twopineproductpackaging1.png" alt="" id="packaging-img" />
         </div>
         <a href="https://drive.google.com/open?id=1LAtoZecouA2z1g-o6surJ5oSBMmm-iGB" class="btn btn-grid">View Style Guide</a>
       </div>
@@ -260,13 +266,13 @@
 
     <div class="development-section section-padding-bottom section-desktop-padding" id="two-pines-development">
       <h5>DEVELOPMENT</h5>
-      <p class="desktop-padding">I coded the entire site myself. It was coded in Atom Editor using HTML, CSS, JavaScript, and JQuery. I used CSS Grid layout to make the site responsive on mobile and desktop. I used Iterm 2 terminal and GitHub to host my repository throughout the
-        process.</p>
+      <p class="desktop-padding">For this project I decided to code a product landing page for the application. I wanted to create a website that would give the potential users an understanding of the goals of Queued with the intentions of converting them into customers. The site is built with HTML, CSS, JQuery and uses CSS grid layout for responsiveness.
+      </p>
       <img src="images/twopinesscreenmockup.png" id="" alt="" />
       <div class="development-button">
         <ul>
-          <li><a href="https://jerryhoglen.github.io/Product_Showcase/" class="btn" id="testing-margin">View Web Prototype</a></li>
-          <li><a href="https://github.com/jerryhoglen/Product_Showcase" class="btn">View Github Code</a></li>
+          <li><a href="https://jerryhoglen.github.io/queued/" class="btn" id="testing-margin">View Web Prototype</a></li>
+          <li><a href="https://github.com/jerryhoglen/queued" class="btn">View Github Code</a></li>
       </div>
     </div>
 
@@ -275,7 +281,7 @@
       <p class="desktop-padding">Two Pines product showcase wasn’t about building a visually appealing website that would show some coffee packaging. It was about creating and inventing a brand that had a real story behind it that would connect its users to the brand through empathy
         and use the design process to do that. It was also about solving a real problem which is finding great coffee and being able to enjoy it at a coffee shop has become a real issue between long lines, expensive roasts and lack of space. With Two
         Pines subscription service you can enjoy the best coffee wherever and whenever you want!</p>
-      <img src="images/twopineswidelogoblack.png" alt="" />
+      <img src="images/queuedlogo.png" alt="" />
     </div>
     <div>
       <ul class="project-nav">
