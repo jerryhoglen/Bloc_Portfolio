@@ -324,15 +324,9 @@
 }
 
 .user-testing-section {
-  background-color: #3498D8;
+  background-color: #181E2F;
   color: #FFFFFF;
 }
-
-#two-pines-testing-section {
-  background-color: #1B3153;
-  color: #FFFFFF;
-}
-
 .user-testing-section img {
   display: block;
   margin: 0 auto;
@@ -375,7 +369,7 @@
 }
 
 .user-testing-2-section {
-  background-color: #F0F1F4;
+  background-color: ##F0F1F4;
   color: #333333;
 }
 
