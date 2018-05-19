@@ -59,7 +59,7 @@
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 20px 0 10px 0;
+  padding: 30px;
 }
 
 .queued-competitive-section {
@@ -214,15 +214,7 @@
   font-size: 1.75em;
   text-align: center;
   font-weight: lighter;
-}
-
-#queued-type-p {
-  font-family: 'San Francisco' sans-serif;
-  font-style: normal;
-  font-size: 1.5em;
-  text-align: center;
-  padding: 10px 0 40px 0;
-  width: 30vw;
+  padding-bottom: 30px;
 }
 
 #color-palette-img {
@@ -245,7 +237,7 @@
   margin: 0 auto;
   text-align: center;
   padding: 0;
-  padding: 20px 0 0 0;
+  padding: 30px;
   width: 92vw;
 }
 
@@ -493,7 +485,7 @@
     padding: 10px 9vw 0 9vw;
   }
   .cumulus-header img {
-    width: 30vw;
+    width: 40vw;
     max-width: 800px;
   }
   .solution-section img {
@@ -550,13 +542,21 @@
   .branding-section img {
     width: 70%;
     margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .queued-branding-logo {
+    background-color: #181E2F;
+    width: 50vw;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
   }
   #color-palette-img {
     width: 50vw;
     max-width: 960px;
     display: block;
     padding: 0;
-    padding-top: 15px;
   }
   .wireframing-section img {
     padding: 0;
@@ -859,8 +859,11 @@
     max-width: 960px;
     margin: 0 auto;
   }
-  .typography-grid h5 {
-    padding-top: 30px;
+  #moodboard {
+    height: 575px;
+    width: 75vw;
+    display: block;
+    margin: 0 auto;
   }
   .bitter-header-grid h5 {
     padding-bottom: 20px;
@@ -868,47 +871,10 @@
   .branding-intro {
     grid-column: 1 / span 2;
   }
-  .bitter-header-grid h5 {
-    padding: 0;
-    padding: 30px 2vw 10px 2vw;
-  }
-  .bitter-font-headings {
-    width: auto;
-    margin-left: 2vw;
-  }
-  .bitter-font-styling {
-    padding: 1vw;
-  }
-  .raleway-font-headings {
-    padding: 0;
-  }
-  .raleway-paragraph-grid h5 {
-    padding: 0;
-    padding: 30px 2vw 10px 2vw;
-  }
-  .example-paragraph-grid h5 {
-    padding: 0;
-    padding: 30px 2vw 10px 2vw;
-  }
-  #raleway-desktop-padding {
-    padding: 1vw;
-  }
-  #bitter-h3-example {
-    padding: 0;
-    font-size: 1.6em;
-  }
-  #bitter-p-desktop-padding {
-    padding: 0;
-    padding-top: 10px;
-  }
-  #example-paragraph-desktop-padding {
-    margin-bottom: 30px;
-  }
   #color-palette-img {
     display: block;
     padding: 0;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 10px;
   }
   #color-palette-h5 {
     padding: 0;
