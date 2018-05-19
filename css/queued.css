@@ -192,6 +192,39 @@
   width: 92vw;
 }
 
+#queued-type {
+  font-family: 'San Francisco' sans-serif;
+  font-style: normal;
+  font-size: 10em;
+  text-align: center;
+  line-height: 1;
+  padding: 20px 0 0 0;
+}
+
+#queued-type-h2 {
+  font-family: 'San Francisco' sans-serif;
+  font-style: normal;
+  font-size: 5em;
+  text-align: center;
+}
+
+#queued-type-h3 {
+  font-family: 'San Francisco' sans-serif;
+  font-style: normal;
+  font-size: 1.75em;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#queued-type-p {
+  font-family: 'San Francisco' sans-serif;
+  font-style: normal;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px 0 40px 0;
+  width: 30vw;
+}
+
 #color-palette-img {
   width: 92vw;
   padding-top: 5px;
@@ -873,8 +906,8 @@
   #color-palette-img {
     display: block;
     padding: 0;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
   #color-palette-h5 {
     padding: 0;
