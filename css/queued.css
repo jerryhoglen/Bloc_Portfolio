@@ -752,7 +752,7 @@
   }
   .user-personas-section img {
     width: 40vw;
-    max-width: 450px;
+    max-width: 400px;
   }
   .user-personas-section {
     width: 100vw;
@@ -810,7 +810,8 @@
     grid-row: 1;
   }
   .persona-img {
-    height: 550px;
+    height: 500px;
+    padding-top: 30px;
   }
   .user-flows-section p {
     padding-top: 10px;
