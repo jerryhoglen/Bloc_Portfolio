@@ -54,7 +54,6 @@
 }
 
 .cumulus-header img {
-  background-color: #181E2F;
   width: 70vw;
   display: block;
   margin: 0 auto;
@@ -245,59 +244,10 @@
   width: 30vw;
 }
 
-.bitter-font-headings {
-  border: 2px solid #d8d8d8;
-  font-family: "ff-meta-web-pro";
-  display: block;
-  width: 36vw;
-  margin-left: 2vw;
-  padding: 1vw;
-}
-
-.bitter-font-styling {
-  font-style: normal;
-  padding: 0;
-  padding-left: 4vw;
-}
-
-#bitter-h3-example {
-  font-family: "ff-meta-web-pro";
-  padding: 1vw 4vw;
-  font-size: 1.75em;
-}
-
-.raleway-font-headings {
-  border: 2px solid #d8d8d8;
-  margin: 0 2vw;
-  font-family: "ff-tisa-web-pro";
-  font-size: 16pt;
-  padding: 1vw;
-}
-
-.example-paragraph {
-  border: 2px solid #d8d8d8;
-  margin: 0 2vw;
-  padding: 1vw;
-  margin-bottom: 5vw;
-}
-
-.example-paragraph h3 {
-  padding-bottom: 0;
-}
-
-.example-paragraph p {
-  font-family: "ff-tisa-web-pro";
-}
-
 .branding-section a {
   display: block;
   margin: 0 auto;
   text-align: center;
-}
-
-#packaging-img {
-  width: 100%;
-  padding-bottom: 20px;
 }
 
 .wireframing-section img {
@@ -322,7 +272,9 @@
 .illustrator-wireframes-grid {
   display: none;
 }
-
+.first-iteration-border {
+  border: 1px solid #333333;
+}
 .user-testing-section {
   background-color: #181E2F;
   color: #FFFFFF;
@@ -479,8 +431,10 @@
     padding: 10px 9vw 0 9vw;
   }
   .cumulus-header img {
-    width: 40vw;
-    max-width: 800px;
+    width: 100vw;
+    max-width: 960px;
+    display: block;
+    margin: auto
   }
   .solution-section img {
     width: 20vw;
@@ -530,21 +484,28 @@
   .user-flows-section img {
     padding: 0;
     padding: 30px 0;
-    width: 70vw;
-    max-width: 960px;
+    display: block;
+    margin: auto;
+  }
+  #queued-sitemap {
+    max-width: 1200px;
+    display: block;
+    margin-left: -8vw;
   }
   .branding-section img {
-    width: 70%;
     margin-top: 30px;
-    margin-bottom: 50px;
+    width: 80%;
+    margin-bottom: 30px;
   }
   .queued-branding-logo {
-    background-color: #181E2F;
-    width: 50vw;
     display: block;
     margin: 0 auto;
     text-align: center;
+  }
+  #queued-branding-logo-color {
+    background-color: #181E2F;
     padding: 30px;
+    width: 74%;
   }
   #color-palette-img {
     width: 50vw;
@@ -552,11 +513,21 @@
     display: block;
     padding: 0;
   }
-  .wireframing-section img {
+  #queued-sketched-frame-padding {
+    margin-bottom: 30px;
+  }
+  .iteration-section img {
+    display: block;
     padding: 0;
-    margin: 0;
-    width: 32vw;
-    max-width: 450px;
+    margin: 0 auto;
+    width: 50vw;
+  }
+
+  .iteration-section .btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
   }
   #two-pines-sketch-wireframe {
     margin: 0 auto;
@@ -916,75 +887,20 @@
     grid-column: 1 / span 2;
     grid-row: 7;
   }
-  .bitter-header-grid {
-    grid-column: 1;
-    grid-row: 8;
-  }
-  .raleway-paragraph-grid {
-    grid-column: 2;
-    grid-row: 8;
-  }
-  .example-paragraph-grid {
-    grid-column: 1 / span 2;
-    grid-row: 9;
-  }
-  .packaging-image-1 {
-    grid-column: 1 / span 2;
-    grid-row: 10;
-    padding: 30px 0;
-  }
-  #packaging-img {
-    width: 100%;
-  }
   .btn-grid {
     grid-column: 1 / span 2;
     grid-row: 11;
   }
   .wireframing-section {
     display: grid;
-    grid-template-columns: 480px 480px;
+    grid-template-columns: 1fr;
   }
   .wireframing-section p {
     padding-top: 10px;
   }
   #wireframing-section-h5-padding {
     padding: 0;
-    padding: 30px 0;
-  }
-  .wireframing-intro-grid {
-    grid-column: 1 / span 2;
-  }
-  .balsamiq-homepage-grid {
-    grid-column: 1 / span 2;
-    grid-row: 2 / span 1;
-    padding-bottom: 30px;
-  }
-  .illustrator-homepage-grid {
-    grid-column: 1;
-    grid-row: 5;
-    padding-bottom: 30px;
-  }
-  .illustrator-wireframes-grid {
-    display: grid;
-    grid-column: 2;
-    grid-row: 5;
-  }
-  .visual-design-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
-  }
-  .visual-design-intro {
-    grid-column: 1 / span 2;
-  }
-  .visual-design-btn {
-    grid-column: 1 / span 2;
-  }
-  .visual-design-section p {
-    padding: 10px 9vw 30px 9vw;
-  }
-  .visual-design-section h5 {
-    padding: 0;
+    padding: 30px 9vw;
   }
   #design-h5 {
     padding: 0 9vw;
