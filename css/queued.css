@@ -827,6 +827,7 @@
     max-width: 960px;
     display: block;
     margin: 0 auto;
+    padding-top: 30px;
   }
   .bitter-header-grid h5 {
     padding-bottom: 20px;
