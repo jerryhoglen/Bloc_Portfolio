@@ -894,7 +894,7 @@
     display: grid;
     grid-template-columns: 1fr;
   }
-  .wireframing-section p {
+  #wireframing-p {
     padding-top: 10px;
   }
   #wireframing-section-h5-padding {
