@@ -516,11 +516,11 @@
   #queued-branding-logo-color {
     background-color: #181E2F;
     padding: 30px;
-    width: 74%;
+    width: 80%;
     margin-bottom: 50px;
   }
   #color-palette-img {
-    width: 50vw;
+    width: 60vw;
     max-width: 960px;
     display: block;
     padding: 0;
@@ -834,13 +834,15 @@
     max-width: 960px;
     margin: 0 auto;
   }
+  #moodboard-h5 {
+    padding: 30px 9vw 0 9vw;
+  }
   #moodboard {
-    height: 450px;
-    width: 70vw;
+    width: 53vw;
     max-width: 960px;
     display: block;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 20px;
   }
   .bitter-header-grid h5 {
     padding-bottom: 20px;
