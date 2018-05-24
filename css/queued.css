@@ -272,8 +272,9 @@
 .illustrator-wireframes-grid {
   display: none;
 }
-.first-iteration-border {
-  border: 1px solid #333333;
+#first-iteration-border {
+  padding: 10px;
+  background-color: #F0F1F4;
 }
 .user-testing-section {
   background-color: #181E2F;
@@ -436,8 +437,20 @@
     display: block;
     margin: auto
   }
+  #developed-h5 {
+    padding: 50px 9vw 0 9vw;
+  }
+  #developed-p {
+    padding: 0 9vw 30px 9vw;
+  }
   #queued-video {
-    max-width: 300px;
+    max-width: 200px;
+  }
+  .cloudapp-embed {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
   }
   .queued-competitive-section {
     width: 100vw;
