@@ -209,6 +209,7 @@
   font-style: normal;
   line-height: 1.2;
   border-left: 2px solid #333333;
+  margin: 20px 0;
 }
 
 .user-personas-section h4 {
@@ -218,6 +219,10 @@
 }
 .user-personas-section img {
   width: 90vw;
+}
+
+.user-personas-section p {
+  padding: 0;
 }
 
 .cheryl-img {
@@ -515,7 +520,7 @@
     padding: 50px 9vw 0 9vw;
   }
   #developed-p {
-    padding: 0 9vw 30px 9vw;
+    padding: 10px 9vw 30px 9vw;
   }
   #queued-video {
     max-width: 200px;
@@ -524,8 +529,8 @@
     width: 50%;
     display: block;
     margin: 0 auto;
-    padding-bottom: 30px;
   }
+
   .queued-competitive-section {
     width: 100vw;
     position: relative;
@@ -868,6 +873,7 @@
     font-style: normal;
     padding: 0;
     padding: 0 2vw 0 1vw;
+    margin: 0;
     margin-left: 1vw;
     border-left: 2px solid #333;
     line-height: 1.2em;
@@ -1033,6 +1039,9 @@
   }
   #design-h5 {
     padding: 0 9vw;
+  }
+  #first-iteration-border {
+    margin-top: 0px;
   }
   .user-testing-2-section {
     width: 100vw;
