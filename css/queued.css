@@ -572,6 +572,9 @@
     display: block;
     margin: auto;
   }
+  .user-flows-section a {
+    margin-top: 0;
+  }
   #queued-userflow-desktop {
     display: block;
   }
