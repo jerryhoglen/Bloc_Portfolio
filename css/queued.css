@@ -592,7 +592,7 @@
   .branding-section img {
     padding: 0;
     padding-bottom: 30px;
-    width: 80%;
+    width: 53vw;
   }
   .queued-branding-logo {
     display: block;
@@ -602,11 +602,11 @@
   #queued-branding-logo-color {
     background-color: #181E2F;
     padding: 30px;
-    width: 80%;
+    width: 53vw;
     margin-bottom: 50px;
   }
   #color-palette-img {
-    width: 60vw;
+    width: 53vw;
     max-width: 960px;
     display: block;
     padding: 0;
@@ -642,7 +642,7 @@
     display: block;
     padding: 0;
     margin: 0 auto;
-    width: 50vw;
+    width: 53vw;
   }
   .iteration-section .btn {
     display: block;
