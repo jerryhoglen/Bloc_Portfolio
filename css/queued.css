@@ -393,9 +393,6 @@
   padding: 20px 0 20px 0;
   width: 92vw;
 }
-#user-testing-2-padding {
-  padding: 10px 4vw;
-}
 
 .user-testing-2-section {
   background-color: ##F0F1F4;
@@ -1052,7 +1049,8 @@
     margin: 0 auto;
   }
   #user-testing-2-padding {
-    padding-top: 20px;
+    max-width: 960px;
+    margin: 0 auto;
   }
   #testing-desktop-margin {
     margin: 0 auto;
