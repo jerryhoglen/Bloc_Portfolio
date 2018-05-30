@@ -240,7 +240,7 @@
 #queued-type {
   font-family: 'San Francisco' sans-serif;
   font-style: normal;
-  font-size: 10em;
+  font-size: 5em;
   text-align: center;
   line-height: 1;
   padding: 20px 0 0 0;
@@ -249,28 +249,32 @@
 #queued-type-h2 {
   font-family: 'San Francisco' sans-serif;
   font-style: normal;
-  font-size: 5em;
+  font-size: 2.5em;
   text-align: center;
 }
 
 #queued-type-h3 {
   font-family: 'San Francisco' sans-serif;
   font-style: normal;
-  font-size: 1.75em;
+  font-size: 1.25em;
   text-align: center;
   font-weight: lighter;
   padding-bottom: 30px;
-}
-
-#color-palette-img {
-  width: 92vw;
-  padding-top: 5px;
 }
 
 .user-flows-section a {
   display: block;
   margin: 0 auto;
   text-align: center;
+  margin-top: 30px;
+}
+
+#queued-userflow-desktop {
+  display: none;
+}
+
+#queued-sitemap {
+  display: none;
 }
 
 .branding-section {
@@ -282,7 +286,7 @@
   margin: 0 auto;
   text-align: center;
   padding: 0;
-  padding: 30px;
+  padding: 20px 0;
   width: 92vw;
 }
 
@@ -296,14 +300,6 @@
   text-align: center;
 }
 
-.wireframing-section img {
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px 0 20px 0;
-  width: 92vw;
-}
-
 .wireframing-section a {
   display: block;
   margin: 0 auto;
@@ -315,11 +311,27 @@
   display: none;
 }
 
+.iteration-section img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  width: 92vw;
+}
+
+.iteration-section a {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
 .illustrator-wireframes-grid {
   display: none;
 }
 
 #first-iteration-border {
+  margin-top: 20px;
   padding: 10px;
   background-color: #F0F1F4;
 }
@@ -370,6 +382,21 @@
   width: 60vw;
 }
 
+#queued-branding-logo-color {
+  background-color: #181E2F;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#color-palette-img {
+  padding: 20px 0 20px 0;
+  width: 92vw;
+}
+#user-testing-2-padding {
+  padding: 10px 4vw;
+}
+
 .user-testing-2-section {
   background-color: ##F0F1F4;
   color: #333333;
@@ -382,9 +409,11 @@
 .user-testing-2-section a {
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
   text-align: center;
   width: 60vw;
-  margin-top: 5vw;
+
 }
 
 .user-testing-2-section img {
@@ -455,7 +484,7 @@
   margin: 0 auto;
   text-align: center;
   padding: 4vw 0 1vw 0;
-  width: 25vw;
+  width: 40vw;
 }
 
 .conclusion-section p {
@@ -546,10 +575,19 @@
     display: block;
     margin: auto;
   }
+  #queued-userflow-desktop {
+    display: block;
+  }
+  .userflow-mobile {
+    display: none;
+  }
   #queued-sitemap {
     max-width: 1200px;
     display: block;
     margin-left: -8vw;
+  }
+  #sitemap-link {
+    display: none;
   }
   .branding-section img {
     padding: 0;
@@ -572,6 +610,30 @@
     max-width: 960px;
     display: block;
     padding: 0;
+  }
+  #queued-type {
+    font-family: 'San Francisco' sans-serif;
+    font-style: normal;
+    font-size: 10em;
+    text-align: center;
+    line-height: 1;
+    padding: 20px 0 0 0;
+  }
+
+  #queued-type-h2 {
+    font-family: 'San Francisco' sans-serif;
+    font-style: normal;
+    font-size: 5em;
+    text-align: center;
+  }
+
+  #queued-type-h3 {
+    font-family: 'San Francisco' sans-serif;
+    font-style: normal;
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 30px;
   }
   #queued-sketched-frame-padding {
     margin-bottom: 30px;
