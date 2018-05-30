@@ -54,11 +54,11 @@
 }
 
 .cumulus-header img {
-  width: 70vw;
+  width: 100vw;
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .queued-competitive-section {
@@ -116,7 +116,9 @@
 .solution-section a {
   display: block;
   margin: 0 auto;
+  margin-top: 30px;
   text-align: center;
+  width: 65vw;
 }
 
 #desktop-process-img {
@@ -163,6 +165,14 @@
   width: 20vw;
 }
 
+.queued-competitive-section a {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 45vw;
+}
+
 #features-list {
   padding: 0 10vw;
 }
@@ -176,6 +186,42 @@
 .user-personas-section {
   background-color: #5F81A3;
   color: #FFFFFF;
+  padding: 0 4vw 30px 4vw;
+}
+
+.user-personas-section h5 {
+  padding: 30px 0 0 0;
+}
+
+.user-personas-section h2 {
+  font-size: 2em;
+  font-style: normal;
+}
+
+.user-personas-section h3 {
+  font-size: 1.2em;
+  font-style: normal;
+  padding: 10px 0;
+}
+
+.user-personas-section h1 {
+  font-size: 1.75em;
+  font-style: normal;
+  line-height: 1.2;
+  border-left: 2px solid #333333;
+}
+
+.user-personas-section h4 {
+  font-size: 1.1em;
+  font-style: normal;
+  padding: 15px 0 10px 0;
+}
+.user-personas-section img {
+  width: 90vw;
+}
+
+.cheryl-img {
+  padding-top: 20px;
 }
 
 #two-pines-personas {
@@ -272,14 +318,17 @@
 .illustrator-wireframes-grid {
   display: none;
 }
+
 #first-iteration-border {
   padding: 10px;
   background-color: #F0F1F4;
 }
+
 .user-testing-section {
   background-color: #181E2F;
   color: #FFFFFF;
 }
+
 .user-testing-section img {
   display: block;
   margin: 0 auto;
@@ -391,7 +440,6 @@
 #testing-margin {
   margin-bottom: 2vw;
 }
-
 
 #two-pines-conclusion {
   background-color: #181E2F;
@@ -534,7 +582,6 @@
     margin: 0 auto;
     width: 50vw;
   }
-
   .iteration-section .btn {
     display: block;
     margin: 0 auto;
@@ -659,6 +706,7 @@
     padding-top: 10px;
     padding-left: 9vw;
     padding-right: 9vw;
+    padding-bottom: 30px;
   }
   #solution-img-padding {
     padding: 30px 0 0 0;
@@ -695,8 +743,10 @@
   }
   .user-research-section h1 {
     padding: 0;
+    padding: 0;
     margin: 0 auto;
     font-size: 3em;
+    max-width: 960px;
   }
   .user-research-flex {
     text-align: center;
@@ -705,7 +755,9 @@
   }
   .user-research-flex h6 {
     margin: 0 auto;
-    width: 23vw;
+  }
+  .research-width {
+    width: 20vw;
   }
   .competitive-analysis-section h5 {
     padding-bottom: 10px;
@@ -726,6 +778,9 @@
   .user-personas-section img {
     width: 40vw;
     max-width: 400px;
+  }
+  .cheryl-img {
+    padding: 0;
   }
   .user-personas-section {
     width: 100vw;
@@ -751,7 +806,7 @@
     font-style: normal;
     padding: 0;
     padding: 0 2vw 0 1vw;
-    margin-left: 2vw;
+    margin-left: 1vw;
     border-left: 2px solid #333;
     line-height: 1.2em;
   }

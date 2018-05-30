@@ -105,7 +105,25 @@ a:hover {
 .queued-section {
   background-color: #ef7aa7;
 }
+.queued-section img {
+  width: 90vw;
+  padding: 0 5vw;
+}
+#queued-homepage-img {
+  width: 50vw;
+  margin: 0 auto;
+  padding: 10px 0 10px 4vw;
+}
+.queued-section-description h5 {
+  padding: 10px 4vw;
+}
 
+.queued-section-description p {
+  padding: 0 4vw 30px 4vw;
+}
+.queued-section-description {
+  border-bottom: 10px solid #dadada;
+}
 .cumulus-section img {
   width: 95vw;
 }
