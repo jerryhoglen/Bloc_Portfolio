@@ -1033,12 +1033,17 @@ label {
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
+    transform: rotate(4deg);
+    -webkit-transition: transform 1s ease-in-out;
   }
   .hvr-background-1:hover {
     background-color: #EA4C89;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+    -webkit-transition: background-color 1.5s linear;
+    -ms-transition: background-color 1.5s linear;
+    transition: background-color 1.5s linear;
+    transform: rotate(-4deg);
+    -webkit-transition: transform 1s ease-in-out;
+
   }
   .hvr-rotate {
     display: inline-block;
@@ -1054,12 +1059,15 @@ label {
   .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
+    -webkit-transition: transform 1s ease-in-out;
   }
   .hvr-background-2:hover {
     background-color: #81EA97;
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
+    transform: rotate(-4deg);
+    -webkit-transition: transform 1s ease-in-out;
   }
   .hvr-rotate-2 {
     display: inline-block;
@@ -1075,6 +1083,7 @@ label {
   .hvr-rotate-2:hover, .hvr-rotate-2:focus, .hvr-rotate-2:active {
     -webkit-transform: rotate(-4deg);
     transform: rotate(-4deg);
+    -webkit-transition: transform 1s ease-in-out;
   }
   footer {
     padding: 75px 0 30px 0;
