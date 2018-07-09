@@ -1028,63 +1028,74 @@ label {
   /***********
   Hover Animation
   ***********/
+  .hvr-background {
+    transition: transform 1s ease-in-out;
+  }
   .hvr-background:hover {
     background-color: #c4c8d4;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
     transform: rotate(4deg);
-    -webkit-transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+  }
+  .hvr-background-1 {
+    transition: background-color 1.5s linear;
+    transition: transform 1s ease-in-out;
   }
   .hvr-background-1:hover {
     background-color: #EA4C89;
-    -webkit-transition: background-color 1.5s linear;
-    -ms-transition: background-color 1.5s linear;
     transition: background-color 1.5s linear;
     transform: rotate(-4deg);
-    -webkit-transition: transform 1s ease-in-out;
-
+    transition: transform 1s ease-in-out;
   }
   .hvr-rotate {
     display: inline-block;
     vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
-    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    -webkit-transition-property: transform;
     transition-property: transform;
+    transition: transform 1.2s ease-in-out;
   }
   .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
-    -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
-    -webkit-transition: transform 1s ease-in-out;
+    transform: rotate(3deg);
+    transition: transform 1s ease-in-out;
   }
   .hvr-background-2:hover {
     background-color: #81EA97;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
     transform: rotate(-4deg);
-    -webkit-transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+  }
+  .hvr-background-2 {
+    transition: transform 1s ease-in-out;
   }
   .hvr-rotate-2 {
     display: inline-block;
     vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
-    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    -webkit-transition-property: transform;
     transition-property: transform;
+    transition: transform 1.2s ease-in-out;
   }
   .hvr-rotate-2:hover, .hvr-rotate-2:focus, .hvr-rotate-2:active {
-    -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
-    -webkit-transition: transform 1s ease-in-out;
+    transform: rotate(-3deg);
+    transition: transform 1s ease-in-out;
   }
+  .hvr-rotate-3 {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition: transform 1.2s ease-in-out;
+  }
+  .hvr-rotate-3:hover, .hvr-rotate-3:focus, .hvr-rotate-3:active {
+    transform: rotate(5deg);
+    transition: transform 1s ease-in-out;
+  }
+
   footer {
     padding: 75px 0 30px 0;
   }
