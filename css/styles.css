@@ -1152,9 +1152,9 @@ transform: translateX(10px) translateY(-10px);
   }
   .profile-paragraph {
     width: 100%;
-    grid-column: 6 / span 7;
+    grid-column: 6 / span 8;
     grid-row: 1;
-    padding: 7vw 1vw 0 2vw;
+    padding: 7vw 0vw 0 2vw;
     z-index: 1200;
   }
   .wrapper {
