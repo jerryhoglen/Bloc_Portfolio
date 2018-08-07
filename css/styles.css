@@ -15,7 +15,6 @@ body {
 
 .bloc {
   color: #3232BE;
-  font-size: 1.9rem;
 }
 
 h1 {
@@ -59,10 +58,12 @@ li {
 a {
   text-decoration: none;
   color: #333;
+  transition: .3s;
 }
 
 a:hover {
   color: red;
+  transition: .3s;
 }
 
 .btn {
@@ -74,12 +75,14 @@ a:hover {
   text-decoration: none;
   text-align: center;
   width: 50vw;
+  transition: .5s;
 }
 
 .btn:hover {
   background: #3091db;
   text-decoration: none;
-  color: #ffffff
+  color: #ffffff;
+  transition: .5s;
 }
 
 #myBtn {
@@ -96,10 +99,12 @@ a:hover {
   padding: 10px;
   width: 50px;
   border-radius: 50%;
+  transition: .5s;
 }
 
 #myBtn:hover {
   background-color: #555;
+  transition: .5s;
 }
 
 .queued-section {
@@ -459,12 +464,14 @@ Contact Page
   -webkit-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   -ms-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 #contact-area input.submit-button:hover {
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background-color: #333;
+  transition: .3s;
 }
 
 label {
