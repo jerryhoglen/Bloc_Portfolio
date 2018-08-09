@@ -17,21 +17,23 @@ body {
   color: #3232BE;
 }
 
+.color-name {
+  color: #529DB0;
+}
+
 h1 {
   font-size: 1.5rem;
   font-weight: 500;
-  font-style: oblique;
   padding: 0 4vw;
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 500;
-  font-style: oblique;
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: lighter;
 }
 
@@ -357,10 +359,6 @@ footer ul li a:active {
 
 .about-padding {
   padding: 0 0 20px 0;
-}
-
-.bold {
-  font-weight: 500;
 }
 
 /*****************
@@ -975,11 +973,11 @@ label {
   }
   .profile-paragraph {
     width: 60vw;
-    padding-left: 5vw;
+    padding-left: 1vw;
   }
   .profile-paragraph h3 {
     font-size: 1.25rem;
-    padding: 2vw 1vw 0 1vw;
+    padding: 0vw 1vw 0 1vw;
   }
   .wrapper {
     grid-template-columns: 1fr 1fr;
@@ -1036,6 +1034,33 @@ label {
   }
   nav {
     padding: 30px 0;
+  }
+
+  aside {
+    z-index: 1000000;
+    border: 1px solid #333;
+    position: fixed;
+    left: 0;
+    margin: 22vh 0 25vh 2vw;
+    width: auto;
+    padding: 10px 10px;
+    background-color: #fff;
+    opacity: .8;
+    color: #000;
+
+  }
+
+  aside a {
+    transition: .3s;
+  }
+
+  aside a:hover {
+    transition: /3s;
+  }
+
+  aside ul li {
+    list-style-type: none;
+    padding: 5px 0;
   }
   /***********
   Hover Animation
@@ -1108,7 +1133,7 @@ transform: translateX(10px) translateY(-10px);
     padding-right: 20px;
   }
   .header h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   h2 {
     font-size: 1.25rem;
@@ -1117,7 +1142,7 @@ transform: translateX(10px) translateY(-10px);
     font-size: 1.5rem;
   }
   .featured-work h2 {
-    font-size: 3.2rem;
+    font-size: 2.75rem;
     padding: 5px 10px;
   }
   h4 {
@@ -1136,32 +1161,30 @@ transform: translateX(10px) translateY(-10px);
     grid-template-columns: repeat(10, 60px);
     grid-column-gap: 20px;
   }
+  .header h1 {
+    padding-left: 1vw;
+  }
   .heading-padding {
     padding: 0;
   }
   .hide-mobile {
     display: flex;
   }
-  .profile-img {
-    grid-column: 1 / span 3;
-    grid-row: 1;
-  }
-  .profile-img img {
-    max-width: 415px;
-    max-height: 375px;
-    border-radius: 2px;
-  }
   .profile-header {
-    grid-column: 3 / span 12;
+    grid-column: 1 / span 12;
     grid-row: 1;
-    padding: 2vw 0 2.2vw 9vw;
+    padding: 5vw 0 0vw 0vw;
     z-index: 1000;
+  }
+  .profile-paragraph h3 {
+    padding: 0;
+    padding: 1vw 0 0 1vw;
   }
   .profile-paragraph {
     width: 100%;
-    grid-column: 6 / span 8;
-    grid-row: 1;
-    padding: 7vw 0vw 0 2vw;
+    grid-column: 1 / span 10;
+    grid-row: 2;
+    padding: 0;
     z-index: 1200;
   }
   .wrapper {
