@@ -13,6 +13,10 @@ body {
   background-color: #fff;
 }
 
+.resume-link {
+  font-weight: 600;
+}
+
 .bloc {
   color: #3232BE;
 }
