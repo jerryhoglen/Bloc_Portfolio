@@ -1137,7 +1137,7 @@ transform: translateX(10px) translateY(-10px);
     padding-right: 20px;
   }
   .header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   h2 {
     font-size: 1.25rem;
@@ -1146,7 +1146,7 @@ transform: translateX(10px) translateY(-10px);
     font-size: 1.5rem;
   }
   .featured-work h2 {
-    font-size: 2.75rem;
+    font-size: 3rem;
     padding: 5px 10px;
   }
   h4 {
@@ -1165,10 +1165,10 @@ transform: translateX(10px) translateY(-10px);
     grid-template-columns: repeat(10, 60px);
     grid-column-gap: 20px;
   }
-  .header h1 {
-    padding-left: 1vw;
-  }
   .heading-padding {
+    padding: 0;
+  }
+  .header h1 {
     padding: 0;
   }
   .hide-mobile {
@@ -1182,7 +1182,7 @@ transform: translateX(10px) translateY(-10px);
   }
   .profile-paragraph h3 {
     padding: 0;
-    padding: 1vw 0 0 1vw;
+    padding: 1vw 0 0 0;
   }
   .profile-paragraph {
     width: 100%;
