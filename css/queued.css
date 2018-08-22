@@ -1128,6 +1128,10 @@
   #testing-margin {
     margin: 0;
   }
+  #maze-img {
+    width: 55vw;
+    padding-bottom: 30px;
+  }
   .conclusion-section {
     width: 100vw;
     position: relative;
